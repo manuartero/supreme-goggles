@@ -1,5 +1,9 @@
 const { name, version } = require("./package.json");
-const { read } = require("./src/yaml-reader");
+const { generateHero } = require("./src/generator");
 
 console.info(`${name} v${version}`);
-console.info(read("names/usa"));
+
+for (let i = 0; i < 10; i++) {
+  const hero = generateHero({});
+  console.info(hero);
+}
