@@ -12,5 +12,8 @@
   "devDependencies": {
     "eslint": "^7.4.0",
     "eslint-plugin-node": "^11.1.0"
+  },
+  "dependencies": {
+    "js-yaml": "^3.14.0"
   }
 }
