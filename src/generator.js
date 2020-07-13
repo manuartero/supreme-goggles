@@ -3,7 +3,13 @@ const { randomGenerator } = require("./random");
 
 const random = randomGenerator();
 
-const chooseCountry = () => "USA";
+const chooseCountry = () =>
+  random.pick([
+    { key: "USA", weight: 1000 },
+    { key: "JAPAN", weight: 50 },
+    { key: "SPAIN", weight: 50 },
+    { key: "RUSSIA", weight: 50 },
+  ]).key;
 
 const chooseGenre = () => random.pick(["male", "female"]);
 
@@ -17,7 +23,7 @@ const chooseRealName = ({ genre, country }) => {
 const generateHero = (opts) => {
   const country = chooseCountry();
   const genre = chooseGenre();
-  const realName = chooseRealName({ country, genre });
+  const realName = chooseRealName({ country: "usa", genre });
   return { country, genre, realName };
 };
 

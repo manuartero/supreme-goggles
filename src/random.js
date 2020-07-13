@@ -16,16 +16,52 @@ const mulberry32 = (seed) => {
  * @param {number} randomSeed
  */
 const randomGenerator = (randomSeed) => {
-  const seed = randomSeed || Math.random();
-  const generator = mulberry32(seed);
+  const seed = randomSeed || Math.random() * 100000000000;
+  const random = mulberry32(seed);
 
-  const number = (low, high) =>
-    Math.floor(generator() * (high - low + 1) + low);
+  const number = (low, high) => Math.floor(random() * (high - low + 1) + low);
+
+  /**
+   * @param {Array<number>} weights
+   * @param {number}
+   * @return {number}
+   */
+  const chooseWeightedIndex = (weights) => {
+    let acc = 0;
+    // if the weights are [5, 30, 10],
+    // this would build an array containing [5, 35, 45], and acc=45
+    const ranges = weights.map(
+      (weight) => (acc += weight >= 0 ? Math.abs(weight) : 1)
+    );
+
+    const selectedValue = random() * acc;
+
+    // If the selected value is within one of the ranges, that's our choice!
+    for (let index = 0; index < ranges.length; index++) {
+      if (selectedValue < ranges[index]) {
+        return index;
+      }
+    }
+    // If nothing was chosen, all weights were 0 or something went wrong.
+    return -1;
+  };
 
   /**
    * @param {Array<any>} arr
+   * @param {string?} weightKey
    */
-  const pick = (arr) => arr[number(0, arr.length - 1)];
+  const pick = (arr, weightKey = "weight") => {
+    if (!arr || arr.length <= 0) {
+      return null;
+    }
+    if (typeof arr[0] !== "object") {
+      return arr[number(0, arr.length - 1)];
+    }
+    const weights = arr.map((item) => item[weightKey] || 1);
+    const selectedIndex = chooseWeightedIndex(weights);
+
+    return selectedIndex >= 0 ? arr[selectedIndex] : null;
+  };
 
   return {
     seed,
