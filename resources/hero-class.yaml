@@ -1,0 +1,92 @@
+---
+- key: Weapon Master
+  weight: 35
+  habilities:
+    - key: Claws
+      weight: 5
+    - key: Shooter
+      weight: 10
+    - key: Pilot
+      weight: 5
+    - key: Robotic Improvements
+      weight: 5
+    - key: Martial Arts
+      weight: 10
+    - key: Soldier
+      weight: 5
+    - key: Gadgets Mastery
+      weight: 10
+
+- key: Sidekick
+  weight: 10
+  habilities: []
+
+- key: Strategos
+  weight: 15
+  habilities:
+    - key: Impersonation
+      weight: 5
+    - key: Hacker
+      weight: 10
+    - key: Mastermind
+      weight: 5
+    - key: Gadgets Mastery
+      weight: 5
+    - key: Master of Puppets
+      weight: 10
+    - key: Scientist
+      weight: 5
+    - key: Soldier
+      weight: 10
+
+- key: Enhanced
+  weight: 25
+  habilities:
+    - key: Hard Skin
+      weight: 5
+    - key: Fly
+      weight: 10
+    - key: Superior Strength
+      weight: 5
+    - key: Claws
+      weight: 5
+    - key: Intuition
+      weight: 10
+    - key: Impersonation
+      weight: 5
+    - key: Extreme Speed
+      weight: 10
+
+- key: Super Natural
+  weight: 10
+  habilities:
+    - key: Weather Control
+      weight: 5
+    - key: Extreme Speed
+      weight: 10
+    - key: Fire Power
+      weight: 5
+    - key: Pure Power
+      weight: 5
+    - key: Nature Control
+      weight: 10
+    - key: Physics Breaker
+      weight: 5
+
+- key: Paranormal
+  weight: 5
+  habilities:
+    - key: Psychic
+      weight: 5
+    - key: Demonologist
+      weight: 10
+    - key: Arcane Knowledge
+      weight: 5
+    - key: Intuition
+      weight: 5
+    - key: Master of Puppets
+      weight: 10
+    - key: Physics Breaker
+      weight: 5
+    - key: Martial Arts
+      weight: 10

@@ -3,6 +3,31 @@ const { randomGenerator } = require("./random");
 
 const random = randomGenerator();
 
+const chooseHeroClass = () => {
+  const heroClasses = read("hero-class");
+  return random.pick(heroClasses);
+};
+
+const chooseHabilities = ({ heroClass }) => {
+  if (heroClass.key === "Sidekick") {
+    return [];
+  }
+  const numberOfHabilities = random.pick([
+    { key: 1, weight: 10 },
+    { key: 2, weight: 8 },
+    { key: 3, weight: 1 },
+  ]).key;
+
+  const habilities = [];
+  while (habilities.length < numberOfHabilities) {
+    const hability = random.pick(heroClass.habilities);
+    if (habilities.filter((e) => e.key === hability.key).length <= 0) {
+      habilities.push(hability);
+    }
+  }
+  return habilities;
+};
+
 const chooseCountry = () =>
   random.pick([
     { key: "USA", weight: 1000 },
@@ -21,10 +46,18 @@ const chooseRealName = ({ genre, country }) => {
 };
 
 const generateHero = (opts) => {
+  const heroClass = chooseHeroClass();
+  const habilities = chooseHabilities({ heroClass });
   const country = chooseCountry();
   const genre = chooseGenre();
   const realName = chooseRealName({ country: "usa", genre });
-  return { country, genre, realName };
+  return {
+    country,
+    genre,
+    realName,
+    heroClass: heroClass.key,
+    habilities: habilities.map((obj) => obj.key),
+  };
 };
 
 module.exports = { generateHero };
