@@ -1,14 +1,16 @@
 const { read } = require("./yaml-reader");
-const { randomPick } = require("./random");
+const { randomGenerator } = require("./random");
+
+const random = randomGenerator();
 
 const chooseCountry = () => "USA";
 
-const chooseGenre = () => randomPick(["male", "female"]);
+const chooseGenre = () => random.pick(["male", "female"]);
 
 const chooseRealName = ({ genre, country }) => {
   const names = read(`names/${country.toLowerCase()}`);
-  const givenName = randomPick(names[genre]);
-  const familyName = randomPick(names["family"]);
+  const givenName = random.pick(names[genre]);
+  const familyName = random.pick(names["family"]);
   return `${givenName} ${familyName}`;
 };
 
