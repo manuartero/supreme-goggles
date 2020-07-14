@@ -3,7 +3,11 @@ const { generateHero } = require("./src/generator");
 
 console.info(`${name} v${version}`);
 
-for (let i = 0; i < 5; i++) {
-  const hero = generateHero({});
-  console.info(hero);
-}
+const generateSomeHeros = (n) => {
+  for (let i = 0; i < n; i++) {
+    const hero = generateHero({});
+    console.info(hero);
+  }
+};
+
+generateSomeHeros(5);

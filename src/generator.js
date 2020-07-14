@@ -1,12 +1,14 @@
-const { read } = require("./yaml-reader");
+const { read, listFileNames } = require("./yaml-reader");
 const { randomGenerator } = require("./random");
 
 const random = randomGenerator();
 
-const keyWithIcon = ({ key, icon }) => `${key} ${icon}`;
+const keyWithIcon = ({ key, icon }) => `${key} ${icon} `;
+
+const DEFAULT_NAMES = read("resources.names.default");
 
 const chooseHeroClass = () => {
-  const heroClasses = read("hero-class");
+  const heroClasses = read("resources.hero-class");
   return random.pick(heroClasses);
 };
 
@@ -31,21 +33,23 @@ const chooseHabilities = ({ heroClass }) => {
   return habilities;
 };
 
-const chooseCountry = () =>
-  random.pick([
-    { key: "USA", weight: 1000 },
-    { key: "JAPAN", weight: 50 },
-    { key: "SPAIN", weight: 50 },
-    { key: "RUSSIA", weight: 50 },
-  ]).key;
+const chooseCountry = () => {
+  const countries = listFileNames("resources.countries");
+  const country = random.pick(countries);
+  const countryObj = read(`resources.countries.${country}`);
+  const key = Object.keys(countryObj)[0];
+  const icon = countryObj[key].icon || DEFAULT_NAMES.icon;
+  return { key, icon, countryInfo: countryObj[key] };
+};
 
 const chooseGenre = () => random.pick(["male", "female"]);
 
 const chooseRealName = ({ genre, country }) => {
-  const names = read(`names/${country.toLowerCase()}`);
-  const givenName = random.pick(names[genre]);
-  const familyName = random.pick(names["family"]);
-  return `${givenName} ${familyName}`;
+  const givenName = random.pick(country.countryInfo.givenNames[genre]).key;
+  const familyName = country.countryInfo.familyNames
+    ? random.pick(country.countryInfo.familyNames).key
+    : random.pick(DEFAULT_NAMES.familyNames).key;
+  return { givenName, familyName };
 };
 
 const generateHero = (opts) => {
@@ -53,11 +57,11 @@ const generateHero = (opts) => {
   const habilities = chooseHabilities({ heroClass });
   const country = chooseCountry();
   const genre = chooseGenre();
-  const realName = chooseRealName({ country: "usa", genre });
+  const realName = chooseRealName({ country, genre });
   return {
-    country,
+    country: keyWithIcon(country),
     genre,
-    realName,
+    realName: `${realName.givenName} ${realName.familyName}`,
     heroClass: keyWithIcon(heroClass),
     habilities: habilities.map(keyWithIcon),
   };

@@ -1,0 +1,2003 @@
+---
+icon: 🇺🇸
+familyNames:
+  - key: Smith
+    weight: 2442977
+  - key: Johnson
+    weight: 1932812
+  - key: Williams
+    weight: 1625252
+  - key: Brown
+    weight: 1437026
+  - key: Jones
+    weight: 1425470
+  - key: Garcia
+    weight: 1166120
+  - key: Miller
+    weight: 1161437
+  - key: Davis
+    weight: 1116357
+  - key: Rodriguez
+    weight: 1094924
+  - key: Martinez
+    weight: 1060159
+  - key: Hernandez
+    weight: 1043281
+  - key: Lopez
+    weight: 874523
+  - key: Gonzalez
+    weight: 841025
+  - key: Wilson
+    weight: 801882
+  - key: Anderson
+    weight: 784404
+  - key: Thomas
+    weight: 756142
+  - key: Taylor
+    weight: 751209
+  - key: Moore
+    weight: 724374
+  - key: Jackson
+    weight: 708099
+  - key: Martin
+    weight: 702625
+  - key: Lee
+    weight: 693023
+  - key: Perez
+    weight: 681645
+  - key: Thompson
+    weight: 664644
+  - key: White
+    weight: 660491
+  - key: Harris
+    weight: 624252
+  - key: Sanchez
+    weight: 612752
+  - key: Clark
+    weight: 562679
+  - key: Ramirez
+    weight: 557423
+  - key: Lewis
+    weight: 531781
+  - key: Robinson
+    weight: 529821
+  - key: Walker
+    weight: 523129
+  - key: Young
+    weight: 484447
+  - key: Allen
+    weight: 482607
+  - key: King
+    weight: 465422
+  - key: Wright
+    weight: 458980
+  - key: Scott
+    weight: 439530
+  - key: Torres
+    weight: 437813
+  - key: Nguyen
+    weight: 437645
+  - key: Hill
+    weight: 434827
+  - key: Flores
+    weight: 433969
+  - key: Green
+    weight: 430182
+  - key: Adams
+    weight: 427865
+  - key: Nelson
+    weight: 424958
+  - key: Baker
+    weight: 419586
+  - key: Hall
+    weight: 407076
+  - key: Rivera
+    weight: 391114
+  - key: Campbell
+    weight: 386157
+  - key: Mitchell
+    weight: 384486
+  - key: Carter
+    weight: 376966
+  - key: Roberts
+    weight: 376774
+  - key: Gomez
+    weight: 365655
+  - key: Phillips
+    weight: 360802
+  - key: Evans
+    weight: 355593
+  - key: Turner
+    weight: 348627
+  - key: Diaz
+    weight: 347636
+  - key: Parker
+    weight: 336221
+  - key: Cruz
+    weight: 334201
+  - key: Edwards
+    weight: 332423
+  - key: Collins
+    weight: 329770
+  - key: Reyes
+    weight: 327904
+  - key: Stewart
+    weight: 324957
+  - key: Morris
+    weight: 318884
+  - key: Morales
+    weight: 311777
+  - key: Murphy
+    weight: 308417
+  - key: Cook
+    weight: 302589
+  - key: Rogers
+    weight: 302261
+  - key: Gutierrez
+    weight: 293218
+  - key: Ortiz
+    weight: 286899
+  - key: Morgan
+    weight: 286280
+  - key: Cooper
+    weight: 280791
+  - key: Peterson
+    weight: 278297
+  - key: Bailey
+    weight: 277845
+  - key: Reed
+    weight: 277030
+  - key: Kelly
+    weight: 267394
+  - key: Howard
+    weight: 264826
+  - key: Ramos
+    weight: 263464
+  - key: Kim
+    weight: 262352
+  - key: Cox
+    weight: 261231
+  - key: Ward
+    weight: 260464
+  - key: Richardson
+    weight: 259798
+  - key: Watson
+    weight: 252579
+  - key: Brooks
+    weight: 251663
+  - key: Chavez
+    weight: 250898
+  - key: Wood
+    weight: 250715
+  - key: James
+    weight: 249379
+  - key: Bennett
+    weight: 247599
+  - key: Gray
+    weight: 246116
+  - key: Mendoza
+    weight: 242771
+  - key: Ruiz
+    weight: 238234
+  - key: Hughes
+    weight: 236271
+  - key: Price
+    weight: 235251
+  - key: Alvarez
+    weight: 233983
+  - key: Castillo
+    weight: 230420
+  - key: Sanders
+    weight: 230374
+  - key: Patel
+    weight: 229973
+  - key: Myers
+    weight: 229895
+  - key: Long
+    weight: 229374
+  - key: Ross
+    weight: 229368
+  - key: Foster
+    weight: 227764
+  - key: Jimenez
+    weight: 227118
+  - key: Powell
+    weight: 224874
+  - key: Jenkins
+    weight: 222653
+  - key: Perry
+    weight: 221741
+  - key: Russell
+    weight: 221558
+  - key: Sullivan
+    weight: 220990
+  - key: Bell
+    weight: 220599
+  - key: Coleman
+    weight: 219070
+  - key: Butler
+    weight: 218847
+  - key: Henderson
+    weight: 218393
+  - key: Barnes
+    weight: 218241
+  - key: Gonzales
+    weight: 214758
+  - key: Fisher
+    weight: 214703
+  - key: Vasquez
+    weight: 212781
+  - key: Simmons
+    weight: 210182
+  - key: Romero
+    weight: 208614
+  - key: Jordan
+    weight: 208403
+  - key: Patterson
+    weight: 205423
+  - key: Alexander
+    weight: 204621
+  - key: Hamilton
+    weight: 201746
+  - key: Graham
+    weight: 201159
+  - key: Reynolds
+    weight: 200247
+  - key: Griffin
+    weight: 198406
+  - key: Wallace
+    weight: 197276
+  - key: Moreno
+    weight: 196925
+  - key: West
+    weight: 195818
+  - key: Cole
+    weight: 195289
+  - key: Hayes
+    weight: 194246
+  - key: Bryant
+    weight: 192773
+  - key: Herrera
+    weight: 192711
+  - key: Gibson
+    weight: 190667
+  - key: Ellis
+    weight: 188968
+  - key: Tran
+    weight: 188498
+  - key: Medina
+    weight: 188497
+  - key: Aguilar
+    weight: 186512
+  - key: Stevens
+    weight: 185674
+  - key: Murray
+    weight: 184910
+  - key: Ford
+    weight: 184832
+  - key: Castro
+    weight: 184134
+  - key: Marshall
+    weight: 183922
+  - key: Owens
+    weight: 182719
+  - key: Harrison
+    weight: 181091
+  - key: Fernandez
+    weight: 180842
+  - key: Mcdonald
+    weight: 180497
+  - key: Woods
+    weight: 177425
+  - key: Washington
+    weight: 177386
+  - key: Kennedy
+    weight: 176865
+  - key: Wells
+    weight: 176230
+  - key: Vargas
+    weight: 173835
+  - key: Henry
+    weight: 170964
+  - key: Chen
+    weight: 169580
+  - key: Freeman
+    weight: 169149
+  - key: Webb
+    weight: 168878
+  - key: Tucker
+    weight: 167446
+  - key: Guzman
+    weight: 167044
+  - key: Burns
+    weight: 165925
+  - key: Crawford
+    weight: 164457
+  - key: Olson
+    weight: 164035
+  - key: Simpson
+    weight: 163181
+  - key: Porter
+    weight: 163054
+  - key: Hunter
+    weight: 162440
+  - key: Gordon
+    weight: 161833
+  - key: Mendez
+    weight: 161717
+  - key: Silva
+    weight: 161633
+  - key: Shaw
+    weight: 160400
+  - key: Snyder
+    weight: 160262
+  - key: Mason
+    weight: 160213
+  - key: Dixon
+    weight: 159480
+  - key: Munoz
+    weight: 158483
+  - key: Hunt
+    weight: 158421
+  - key: Hicks
+    weight: 158320
+  - key: Holmes
+    weight: 156780
+  - key: Palmer
+    weight: 156601
+  - key: Wagner
+    weight: 155795
+  - key: Black
+    weight: 154738
+  - key: Robertson
+    weight: 153666
+  - key: Boyd
+    weight: 153469
+  - key: Rose
+    weight: 153397
+  - key: Stone
+    weight: 153329
+  - key: Salazar
+    weight: 152703
+  - key: Fox
+    weight: 152334
+  - key: Warren
+    weight: 152147
+  - key: Mills
+    weight: 151942
+  - key: Meyer
+    weight: 150895
+  - key: Rice
+    weight: 149500
+  - key: Schmidt
+    weight: 147034
+  - key: Garza
+    weight: 147005
+  - key: Daniels
+    weight: 146570
+  - key: Ferguson
+    weight: 146426
+  - key: Nichols
+    weight: 145584
+  - key: Stephens
+    weight: 144646
+  - key: Soto
+    weight: 144451
+  - key: Weaver
+    weight: 143837
+  - key: Ryan
+    weight: 143452
+  - key: Gardner
+    weight: 142894
+  - key: Payne
+    weight: 142601
+  - key: Grant
+    weight: 142277
+  - key: Dunn
+    weight: 141427
+  - key: Kelley
+    weight: 140693
+  - key: Spencer
+    weight: 139951
+  - key: Hawkins
+    weight: 139751
+  - key: Arnold
+    weight: 138893
+  - key: Pierce
+    weight: 138629
+  - key: Vazquez
+    weight: 138322
+  - key: Hansen
+    weight: 137977
+  - key: Peters
+    weight: 137513
+  - key: Santos
+    weight: 137232
+  - key: Hart
+    weight: 137184
+  - key: Bradley
+    weight: 136720
+  - key: Knight
+    weight: 136713
+  - key: Elliott
+    weight: 135765
+  - key: Cunningham
+    weight: 135718
+  - key: Duncan
+    weight: 135187
+  - key: Armstrong
+    weight: 135044
+  - key: Hudson
+    weight: 134963
+  - key: Carroll
+    weight: 134317
+  - key: Lane
+    weight: 134227
+  - key: Riley
+    weight: 133872
+  - key: Andrews
+    weight: 133799
+  - key: Alvarado
+    weight: 133501
+  - key: Ray
+    weight: 133171
+  - key: Delgado
+    weight: 132985
+  - key: Berry
+    weight: 132812
+  - key: Perkins
+    weight: 131440
+  - key: Hoffman
+    weight: 131401
+  - key: Johnston
+    weight: 131373
+  - key: Matthews
+    weight: 131303
+  - key: Pena
+    weight: 130776
+  - key: Richards
+    weight: 130529
+  - key: Contreras
+    weight: 130164
+  - key: Willis
+    weight: 130152
+  - key: Carpenter
+    weight: 129898
+  - key: Lawrence
+    weight: 129699
+  - key: Sandoval
+    weight: 128948
+  - key: Guerrero
+    weight: 128677
+  - key: George
+    weight: 128625
+  - key: Chapman
+    weight: 127939
+  - key: Rios
+    weight: 127794
+  - key: Estrada
+    weight: 127470
+  - key: Ortega
+    weight: 127256
+  - key: Watkins
+    weight: 127083
+  - key: Greene
+    weight: 126101
+  - key: Nunez
+    weight: 125350
+  - key: Wheeler
+    weight: 125058
+  - key: Valdez
+    weight: 124995
+  - key: Harper
+    weight: 124461
+  - key: Burke
+    weight: 122877
+  - key: Larson
+    weight: 122587
+  - key: Santiago
+    weight: 122212
+  - key: Maldonado
+    weight: 121526
+  - key: Morrison
+    weight: 121130
+  - key: Franklin
+    weight: 120621
+  - key: Carlson
+    weight: 120552
+  - key: Austin
+    weight: 119706
+  - key: Dominguez
+    weight: 119304
+  - key: Carr
+    weight: 119076
+  - key: Lawson
+    weight: 119053
+  - key: Jacobs
+    weight: 118614
+  - key: Obrien
+    weight: 118557
+  - key: Lynch
+    weight: 117708
+  - key: Singh
+    weight: 116749
+  - key: Vega
+    weight: 116673
+  - key: Bishop
+    weight: 116618
+  - key: Montgomery
+    weight: 115953
+  - key: Oliver
+    weight: 115900
+  - key: Jensen
+    weight: 115679
+  - key: Harvey
+    weight: 115662
+  - key: Williamson
+    weight: 114959
+  - key: Gilbert
+    weight: 114940
+  - key: Dean
+    weight: 114030
+  - key: Sims
+    weight: 113374
+  - key: Espinoza
+    weight: 112154
+  - key: Howell
+    weight: 112041
+  - key: Li
+    weight: 111786
+  - key: Wong
+    weight: 111371
+  - key: Reid
+    weight: 111360
+  - key: Hanson
+    weight: 111144
+  - key: Le
+    weight: 110967
+  - key: Mccoy
+    weight: 110744
+  - key: Garrett
+    weight: 110697
+  - key: Burton
+    weight: 110529
+  - key: Fuller
+    weight: 110116
+  - key: Wang
+    weight: 109883
+  - key: Weber
+    weight: 109433
+  - key: Welch
+    weight: 108987
+  - key: Rojas
+    weight: 108421
+  - key: Lucas
+    weight: 107690
+  - key: Marquez
+    weight: 107533
+  - key: Fields
+    weight: 107522
+  - key: Park
+    weight: 106696
+  - key: Yang
+    weight: 106033
+  - key: Little
+    weight: 105936
+  - key: Banks
+    weight: 105833
+  - key: Padilla
+    weight: 105365
+  - key: Day
+    weight: 105091
+  - key: Walsh
+    weight: 105079
+  - key: Bowman
+    weight: 105007
+  - key: Schultz
+    weight: 104888
+  - key: Luna
+    weight: 104518
+  - key: Fowler
+    weight: 104515
+  - key: Mejia
+    weight: 104057
+  - key: Davidson
+    weight: 103930
+  - key: Acosta
+    weight: 103418
+  - key: Brewer
+    weight: 103318
+  - key: May
+    weight: 103306
+  - key: Holland
+    weight: 102538
+  - key: Juarez
+    weight: 101949
+  - key: Newman
+    weight: 101931
+  - key: Pearson
+    weight: 101836
+  - key: Curtis
+    weight: 101801
+  - key: Cortez
+    weight: 101694
+  - key: Douglas
+    weight: 101458
+  - key: Schneider
+    weight: 101290
+  - key: Joseph
+    weight: 100959
+  - key: Barrett
+    weight: 100104
+  - key: Navarro
+    weight: 99807
+  - key: Figueroa
+    weight: 98468
+  - key: Keller
+    weight: 98268
+  - key: Avila
+    weight: 97314
+  - key: Wade
+    weight: 97040
+  - key: Molina
+    weight: 96979
+  - key: Stanley
+    weight: 96867
+  - key: Hopkins
+    weight: 96810
+  - key: Campos
+    weight: 96111
+  - key: Barnett
+    weight: 95681
+  - key: Bates
+    weight: 95622
+  - key: Chambers
+    weight: 94988
+  - key: Caldwell
+    weight: 93944
+  - key: Beck
+    weight: 93786
+  - key: Lambert
+    weight: 93678
+  - key: Miranda
+    weight: 93628
+  - key: Byrd
+    weight: 92904
+  - key: Craig
+    weight: 92507
+  - key: Ayala
+    weight: 92463
+  - key: Lowe
+    weight: 92260
+  - key: Frazier
+    weight: 92152
+  - key: Powers
+    weight: 91970
+  - key: Neal
+    weight: 91694
+  - key: Leonard
+    weight: 91475
+  - key: Gregory
+    weight: 91384
+  - key: Carrillo
+    weight: 91129
+  - key: Sutton
+    weight: 90964
+  - key: Fleming
+    weight: 90677
+  - key: Rhodes
+    weight: 90670
+  - key: Shelton
+    weight: 90517
+  - key: Schwartz
+    weight: 90071
+  - key: Norris
+    weight: 89796
+  - key: Jennings
+    weight: 89700
+  - key: Watts
+    weight: 89649
+  - key: Duran
+    weight: 89401
+  - key: Walters
+    weight: 89376
+  - key: Cohen
+    weight: 89091
+  - key: Mcdaniel
+    weight: 88728
+  - key: Moran
+    weight: 88615
+  - key: Parks
+    weight: 88586
+  - key: Steele
+    weight: 88230
+  - key: Vaughn
+    weight: 88060
+  - key: Becker
+    weight: 87859
+  - key: Holt
+    weight: 87531
+  - key: Deleon
+    weight: 87414
+  - key: Barker
+    weight: 87162
+  - key: Terry
+    weight: 87000
+  - key: Hale
+    weight: 86618
+  - key: Leon
+    weight: 86363
+  - key: Hail
+    weight: 86240
+  - key: Benson
+    weight: 86081
+  - key: Haynes
+    weight: 85974
+  - key: Horton
+    weight: 85195
+  - key: Miles
+    weight: 84942
+  - key: Lyons
+    weight: 84516
+  - key: Pham
+    weight: 84320
+  - key: Graves
+    weight: 84179
+  - key: Bush
+    weight: 84018
+  - key: Thornton
+    weight: 83967
+  - key: Wolfe
+    weight: 83928
+  - key: Warner
+    weight: 83781
+  - key: Cabrera
+    weight: 83621
+  - key: Mckinney
+    weight: 83616
+  - key: Mann
+    weight: 83510
+  - key: Zimmerman
+    weight: 83265
+  - key: Dawson
+    weight: 83182
+  - key: Lara
+    weight: 83067
+  - key: Fletcher
+    weight: 83063
+  - key: Page
+    weight: 82992
+  - key: Mccarthy
+    weight: 82950
+  - key: Love
+    weight: 82873
+  - key: Robles
+    weight: 82458
+  - key: Cervantes
+    weight: 82161
+  - key: Solis
+    weight: 82146
+  - key: Erickson
+    weight: 82085
+  - key: Reeves
+    weight: 81978
+  - key: Chang
+    weight: 81939
+  - key: Klein
+    weight: 81471
+  - key: Salinas
+    weight: 81156
+  - key: Fuentes
+    weight: 81006
+  - key: Baldwin
+    weight: 80742
+  - key: Daniel
+    weight: 80526
+  - key: Simon
+    weight: 80460
+  - key: Velasquez
+    weight: 80364
+  - key: Hardy
+    weight: 80252
+  - key: Higgins
+    weight: 79803
+  - key: Aguirre
+    weight: 79517
+  - key: Lin
+    weight: 79508
+  - key: Cummings
+    weight: 79316
+  - key: Chandler
+    weight: 79186
+  - key: Sharp
+    weight: 78990
+  - key: Barber
+    weight: 78848
+  - key: Bowen
+    weight: 78822
+  - key: Ochoa
+    weight: 78677
+  - key: Dennis
+    weight: 78482
+  - key: Robbins
+    weight: 78381
+  - key: Liu
+    weight: 78370
+  - key: Ramsey
+    weight: 78350
+  - key: Francis
+    weight: 78327
+  - key: Griffith
+    weight: 78260
+  - key: Paul
+    weight: 78256
+  - key: Blair
+    weight: 78026
+  - key: Oconnor
+    weight: 77923
+  - key: Cardenas
+    weight: 77652
+  - key: Pacheco
+    weight: 77642
+  - key: Cross
+    weight: 77557
+  - key: Calderon
+    weight: 77085
+  - key: Quinn
+    weight: 76986
+  - key: Moss
+    weight: 76908
+  - key: Swanson
+    weight: 76897
+  - key: Chan
+    weight: 76664
+  - key: Rivas
+    weight: 76205
+  - key: Khan
+    weight: 76171
+  - key: Rodgers
+    weight: 76095
+  - key: Serrano
+    weight: 75996
+  - key: Fitzgerald
+    weight: 75356
+  - key: Rosales
+    weight: 75185
+  - key: Stevenson
+    weight: 75169
+  - key: Christensen
+    weight: 75143
+  - key: Manning
+    weight: 74949
+  - key: Gill
+    weight: 74948
+  - key: Curry
+    weight: 74919
+  - key: Mclaughlin
+    weight: 74816
+  - key: Harmon
+    weight: 74737
+  - key: Mcgee
+    weight: 74542
+  - key: Gross
+    weight: 74503
+  - key: Doyle
+    weight: 74458
+  - key: Garner
+    weight: 74324
+  - key: Newton
+    weight: 74092
+  - key: Burgess
+    weight: 73931
+  - key: Reese
+    weight: 73919
+  - key: Walton
+    weight: 73854
+  - key: Blake
+    weight: 73797
+  - key: Trujillo
+    weight: 73664
+  - key: Adkins
+    weight: 73599
+  - key: Brady
+    weight: 73145
+  - key: Goodman
+    weight: 73136
+  - key: Roman
+    weight: 72918
+  - key: Webster
+    weight: 72625
+  - key: Goodwin
+    weight: 72451
+  - key: Fischer
+    weight: 72357
+  - key: Huang
+    weight: 72328
+  - key: Potter
+    weight: 72175
+  - key: Delacruz
+    weight: 72109
+  - key: Montoya
+    weight: 71844
+  - key: Todd
+    weight: 71759
+  - key: Wu
+    weight: 71721
+  - key: Hines
+    weight: 71717
+  - key: Mullins
+    weight: 71646
+  - key: Castaneda
+    weight: 71368
+  - key: Malone
+    weight: 71286
+  - key: Cannon
+    weight: 71085
+  - key: Tate
+    weight: 71058
+  - key: Mack
+    weight: 71056
+  - key: Sherman
+    weight: 70502
+  - key: Hubbard
+    weight: 70362
+  - key: Hodges
+    weight: 70223
+  - key: Zhang
+    weight: 70125
+  - key: Guerra
+    weight: 70071
+  - key: Wolf
+    weight: 70031
+  - key: Valencia
+    weight: 70000
+  - key: Franco
+    weight: 69943
+  - key: Saunders
+    weight: 69943
+  - key: Rowe
+    weight: 69879
+  - key: Gallagher
+    weight: 69834
+  - key: Farmer
+    weight: 69617
+  - key: Hammond
+    weight: 69515
+  - key: Hampton
+    weight: 69472
+  - key: Townsend
+    weight: 69360
+  - key: Ingram
+    weight: 69345
+  - key: Wise
+    weight: 68649
+  - key: Gallegos
+    weight: 68373
+  - key: Clarke
+    weight: 68281
+  - key: Barton
+    weight: 68233
+  - key: Schroeder
+    weight: 67977
+  - key: Maxwell
+    weight: 67961
+  - key: Waters
+    weight: 67929
+  - key: Logan
+    weight: 67909
+  - key: Camacho
+    weight: 67893
+  - key: Strickland
+    weight: 67769
+  - key: Norman
+    weight: 67704
+  - key: Person
+    weight: 67411
+  - key: Colon
+    weight: 67338
+  - key: Parsons
+    weight: 67310
+  - key: Frank
+    weight: 67304
+  - key: Harrington
+    weight: 66959
+  - key: Glover
+    weight: 66858
+  - key: Osborne
+    weight: 66827
+  - key: Buchanan
+    weight: 66648
+  - key: Casey
+    weight: 66556
+  - key: Floyd
+    weight: 66454
+  - key: Patton
+    weight: 66293
+  - key: Ibarra
+    weight: 66063
+  - key: Ball
+    weight: 66059
+  - key: Tyler
+    weight: 66056
+  - key: Suarez
+    weight: 66013
+  - key: Bowers
+    weight: 66003
+  - key: Orozco
+    weight: 65904
+  - key: Salas
+    weight: 65468
+  - key: Cobb
+    weight: 65125
+  - key: Gibbs
+    weight: 65064
+  - key: Andrade
+    weight: 65037
+  - key: Bauer
+    weight: 65004
+  - key: Conner
+    weight: 64572
+  - key: Moody
+    weight: 64429
+  - key: Escobar
+    weight: 64403
+  - key: Mcguire
+    weight: 64327
+  - key: Lloyd
+    weight: 64202
+  - key: Mueller
+    weight: 64191
+  - key: Hartman
+    weight: 64106
+  - key: French
+    weight: 63991
+  - key: Kramer
+    weight: 63936
+  - key: Mcbride
+    weight: 63899
+  - key: Pope
+    weight: 63881
+  - key: Lindsey
+    weight: 63760
+  - key: Velazquez
+    weight: 63736
+  - key: Norton
+    weight: 63722
+  - key: Mccormick
+    weight: 63649
+  - key: Sparks
+    weight: 63440
+  - key: Flynn
+    weight: 63400
+  - key: Yates
+    weight: 63254
+  - key: Hogan
+    weight: 63085
+  - key: Marsh
+    weight: 62304
+  - key: Macias
+    weight: 62227
+  - key: Villanueva
+    weight: 61883
+  - key: Zamora
+    weight: 61729
+  - key: Pratt
+    weight: 61671
+  - key: Stokes
+    weight: 61639
+  - key: Owen
+    weight: 61630
+  - key: Ballard
+    weight: 61625
+  - key: Lang
+    weight: 61529
+  - key: Brock
+    weight: 61369
+  - key: Villarreal
+    weight: 61355
+  - key: Charles
+    weight: 61211
+  - key: Drake
+    weight: 61162
+  - key: Barrera
+    weight: 60998
+  - key: Cain
+    weight: 60948
+  - key: Patrick
+    weight: 60845
+  - key: Pineda
+    weight: 60820
+  - key: Burnett
+    weight: 60791
+  - key: Mercado
+    weight: 60761
+  - key: Santana
+    weight: 60667
+  - key: Shepherd
+    weight: 60479
+  - key: Bautista
+    weight: 60264
+  - key: Ali
+    weight: 60002
+  - key: Shaffer
+    weight: 59943
+  - key: Lamb
+    weight: 59913
+  - key: Trevino
+    weight: 59882
+  - key: Mckenzie
+    weight: 59595
+  - key: Hess
+    weight: 59486
+  - key: Beil
+    weight: 59463
+  - key: Olsen
+    weight: 59356
+  - key: Cochran
+    weight: 59350
+  - key: Morton
+    weight: 59213
+  - key: Nash
+    weight: 58714
+  - key: Wilkins
+    weight: 58634
+  - key: Petersen
+    weight: 58480
+  - key: Briggs
+    weight: 58408
+  - key: Shah
+    weight: 58287
+  - key: Roth
+    weight: 58278
+  - key: Nicholson
+    weight: 58151
+  - key: Holloway
+    weight: 58040
+  - key: Lozano
+    weight: 57779
+  - key: Flowers
+    weight: 57549
+  - key: Rangel
+    weight: 57549
+  - key: Hoover
+    weight: 57497
+  - key: Arias
+    weight: 57477
+  - key: Short
+    weight: 57477
+  - key: Mora
+    weight: 57464
+  - key: Valenzuela
+    weight: 57383
+  - key: Bryan
+    weight: 57143
+  - key: Meyers
+    weight: 57127
+  - key: Weiss
+    weight: 57112
+  - key: Underwood
+    weight: 57064
+  - key: Bass
+    weight: 57044
+  - key: Greer
+    weight: 57043
+  - key: Summers
+    weight: 56953
+  - key: Houston
+    weight: 56900
+  - key: Carson
+    weight: 56872
+  - key: Morrow
+    weight: 56840
+  - key: Clayton
+    weight: 56638
+  - key: Whitaker
+    weight: 56616
+  - key: Decker
+    weight: 56576
+  - key: Yoder
+    weight: 56410
+  - key: Collier
+    weight: 56380
+  - key: Zuniga
+    weight: 56347
+  - key: Carey
+    weight: 56322
+  - key: Wilcox
+    weight: 56286
+  - key: Melendez
+    weight: 56230
+  - key: Poole
+    weight: 56226
+  - key: Roberson
+    weight: 56180
+  - key: Larsen
+    weight: 55960
+  - key: Conley
+    weight: 55917
+  - key: Davenport
+    weight: 55895
+  - key: Copeland
+    weight: 55850
+  - key: Massey
+    weight: 55595
+  - key: Lam
+    weight: 55554
+  - key: Huff
+    weight: 55484
+  - key: Rocha
+    weight: 55251
+  - key: Cameron
+    weight: 55240
+  - key: Jefferson
+    weight: 55179
+  - key: Hood
+    weight: 55174
+  - key: Monroe
+    weight: 55136
+  - key: Anthony
+    weight: 55114
+  - key: Pittman
+    weight: 55021
+  - key: Huynh
+    weight: 54996
+  - key: Randall
+    weight: 54764
+  - key: Singleton
+    weight: 54621
+  - key: Kirk
+    weight: 54394
+  - key: Combs
+    weight: 54257
+  - key: Mathis
+    weight: 54217
+  - key: Christian
+    weight: 54198
+  - key: Skinner
+    weight: 54046
+  - key: Bradford
+    weight: 54015
+  - key: Richard
+    weight: 53893
+  - key: Galvan
+    weight: 53822
+  - key: Wall
+    weight: 53794
+  - key: Boone
+    weight: 53792
+  - key: Kirby
+    weight: 53767
+  - key: Wilkinson
+    weight: 53739
+  - key: Bridges
+    weight: 53682
+  - key: Bruce
+    weight: 53419
+  - key: Atkinson
+    weight: 53376
+  - key: Velez
+    weight: 53265
+  - key: Meza
+    weight: 53230
+  - key: Roy
+    weight: 53159
+  - key: Vincent
+    weight: 53095
+  - key: York
+    weight: 53059
+  - key: Hodge
+    weight: 52920
+  - key: Villa
+    weight: 52817
+  - key: Abbott
+    weight: 52739
+  - key: Allison
+    weight: 52701
+  - key: Tapia
+    weight: 52651
+  - key: Gates
+    weight: 52569
+  - key: Chase
+    weight: 52481
+  - key: Sosa
+    weight: 52457
+  - key: Sweeney
+    weight: 52410
+  - key: Farrell
+    weight: 52321
+  - key: Wyatt
+    weight: 52211
+  - key: Dalton
+    weight: 52184
+  - key: Horn
+    weight: 52138
+  - key: Barron
+    weight: 52070
+  - key: Phelps
+    weight: 52044
+  - key: Yu
+    weight: 52035
+  - key: Dickerson
+    weight: 51889
+  - key: Heath
+    weight: 51877
+  - key: Foley
+    weight: 51865
+  - key: Atkins
+    weight: 51671
+  - key: Mathews
+    weight: 51592
+  - key: Bonilla
+    weight: 51475
+  - key: Acevedo
+    weight: 51351
+  - key: Benitez
+    weight: 51288
+  - key: Zavala
+    weight: 51153
+  - key: Hensley
+    weight: 51081
+  - key: Glenn
+    weight: 51043
+  - key: Cisneros
+    weight: 50920
+  - key: Harrell
+    weight: 50837
+  - key: Shields
+    weight: 50832
+  - key: Rubio
+    weight: 50788
+  - key: Choi
+    weight: 50786
+  - key: Huffman
+    weight: 50786
+  - key: Boyer
+    weight: 50742
+  - key: Garrison
+    weight: 50686
+  - key: Arroyo
+    weight: 50614
+  - key: Bond
+    weight: 50610
+  - key: Kane
+    weight: 50584
+  - key: Hancock
+    weight: 50558
+  - key: Callahan
+    weight: 50524
+  - key: Dillon
+    weight: 50465
+  - key: Cline
+    weight: 50258
+  - key: Wiggins
+    weight: 50247
+  - key: Grimes
+    weight: 50245
+  - key: Arellano
+    weight: 50104
+  - key: Melton
+    weight: 50069
+  - key: Oneill
+    weight: 50028
+  - key: Savage
+    weight: 49914
+  - key: Ho
+    weight: 49817
+  - key: Beltran
+    weight: 49776
+  - key: Pitts
+    weight: 49740
+  - key: Parrish
+    weight: 49733
+  - key: Ponce
+    weight: 49549
+  - key: Rich
+    weight: 49481
+  - key: Booth
+    weight: 49402
+  - key: Koch
+    weight: 49395
+  - key: Golden
+    weight: 49360
+  - key: Ware
+    weight: 49316
+  - key: Brennan
+    weight: 49238
+  - key: Mcdowell
+    weight: 49217
+  - key: Marks
+    weight: 49177
+  - key: Cantu
+    weight: 49126
+  - key: Humphrey
+    weight: 49056
+  - key: Baxter
+    weight: 49033
+  - key: Sawyer
+    weight: 49028
+  - key: Clay
+    weight: 48844
+  - key: Tanner
+    weight: 48813
+  - key: Hutchinson
+    weight: 48781
+  - key: Kaur
+    weight: 48753
+  - key: Berg
+    weight: 48746
+  - key: Wiley
+    weight: 48720
+  - key: Gilmore
+    weight: 48719
+  - key: Russo
+    weight: 48696
+  - key: Villegas
+    weight: 48599
+  - key: Hobbs
+    weight: 48522
+  - key: Keith
+    weight: 48487
+  - key: Wilkerson
+    weight: 48444
+  - key: Ahmed
+    weight: 48319
+  - key: Beard
+    weight: 48207
+  - key: Mcclain
+    weight: 48165
+  - key: Montes
+    weight: 48142
+  - key: Mata
+    weight: 48120
+  - key: Rosario
+    weight: 48051
+  - key: Vang
+    weight: 48036
+  - key: Walter
+    weight: 48024
+  - key: Henson
+    weight: 48013
+  - key: Oneal
+    weight: 47979
+  - key: Mosley
+    weight: 47963
+  - key: Mcclure
+    weight: 47742
+  - key: Beasley
+    weight: 47693
+  - key: Stephenson
+    weight: 47641
+  - key: Snow
+    weight: 47528
+  - key: Huerta
+    weight: 47455
+  - key: Preston
+    weight: 47367
+  - key: Vance
+    weight: 47324
+  - key: Barry
+    weight: 47274
+  - key: Johns
+    weight: 47246
+  - key: Eaton
+    weight: 47184
+  - key: Blackwell
+    weight: 47175
+  - key: Dyer
+    weight: 47170
+  - key: Prince
+    weight: 47168
+  - key: Macdonald
+    weight: 46717
+  - key: Solomon
+    weight: 46534
+  - key: Guevara
+    weight: 46454
+  - key: Stafford
+    weight: 46394
+  - key: English
+    weight: 46393
+  - key: Hurst
+    weight: 46244
+  - key: Woodard
+    weight: 46240
+  - key: Cortes
+    weight: 46229
+  - key: Shannon
+    weight: 46147
+  - key: Kemp
+    weight: 46146
+  - key: Nolan
+    weight: 46054
+  - key: Mccullough
+    weight: 45852
+  - key: Merritt
+    weight: 45594
+  - key: Murillo
+    weight: 45558
+  - key: Moon
+    weight: 45528
+  - key: Salgado
+    weight: 45469
+  - key: Strong
+    weight: 45432
+  - key: Kline
+    weight: 45390
+  - key: Cordova
+    weight: 45305
+  - key: Barajas
+    weight: 45153
+  - key: Roach
+    weight: 45019
+  - key: Rosas
+    weight: 44938
+  - key: Winters
+    weight: 44914
+  - key: Jacobson
+    weight: 44808
+  - key: Lester
+    weight: 44784
+  - key: Knox
+    weight: 44742
+  - key: Bullock
+    weight: 44740
+  - key: Kerr
+    weight: 44711
+  - key: Leach
+    weight: 44581
+  - key: Meadows
+    weight: 44500
+  - key: Davila
+    weight: 44388
+  - key: Orr
+    weight: 44388
+  - key: Whitehead
+    weight: 44373
+  - key: Pruitt
+    weight: 44365
+  - key: Kent
+    weight: 44325
+  - key: Conway
+    weight: 44320
+  - key: Mckee
+    weight: 44137
+  - key: Barr
+    weight: 44130
+  - key: David
+    weight: 44040
+  - key: Dejesus
+    weight: 44038
+  - key: Marin
+    weight: 43904
+  - key: Berger
+    weight: 43851
+  - key: Mcintyre
+    weight: 43842
+  - key: Blankenship
+    weight: 43830
+  - key: Gaines
+    weight: 43821
+  - key: Palacios
+    weight: 43798
+  - key: Cuevas
+    weight: 43701
+  - key: Bartlett
+    weight: 43648
+  - key: Durham
+    weight: 43635
+  - key: Dorsey
+    weight: 43631
+  - key: Mccall
+    weight: 43483
+  - key: Odonnell
+    weight: 43460
+  - key: Stein
+    weight: 43389
+  - key: Browning
+    weight: 43329
+  - key: Stout
+    weight: 43305
+  - key: Lowery
+    weight: 43278
+  - key: Sloan
+    weight: 43261
+  - key: Mclean
+    weight: 43260
+  - key: Hendricks
+    weight: 43197
+  - key: Calhoun
+    weight: 43180
+  - key: Sexton
+    weight: 43133
+  - key: Chung
+    weight: 43110
+  - key: Gentry
+    weight: 43027
+  - key: Hull
+    weight: 43018
+  - key: Duarte
+    weight: 42983
+  - key: Ellison
+    weight: 42827
+  - key: Nielsen
+    weight: 42773
+  - key: Gillespie
+    weight: 42693
+  - key: Buck
+    weight: 42639
+  - key: Middleton
+    weight: 42578
+  - key: Sellers
+    weight: 42577
+  - key: Leblanc
+    weight: 42575
+  - key: Esparza
+    weight: 42559
+  - key: Hardin
+    weight: 42469
+  - key: Bradshaw
+    weight: 42465
+  - key: Mcintosh
+    weight: 42379
+  - key: Howe
+    weight: 42265
+  - key: Livingston
+    weight: 42103
+  - key: Frost
+    weight: 42015
+  - key: Glass
+    weight: 41802
+  - key: Morse
+    weight: 41774
+  - key: Knapp
+    weight: 41771
+  - key: Herman
+    weight: 41750
+  - key: Stark
+    weight: 41735
+  - key: Bravo
+    weight: 41700
+  - key: Noble
+    weight: 41667
+  - key: Spears
+    weight: 41665
+  - key: Weeks
+    weight: 41565
+  - key: Corona
+    weight: 41553
+  - key: Frederick
+    weight: 41394
+  - key: Buckley
+    weight: 41348
+  - key: Mcfarland
+    weight: 41300
+  - key: Hebert
+    weight: 41275
+  - key: Enriquez
+    weight: 41271
+  - key: Hickman
+    weight: 41163
+  - key: Quintero
+    weight: 41158
+  - key: Randolph
+    weight: 41129
+  - key: Schaefer
+    weight: 41063
+  - key: Walls
+    weight: 41025
+  - key: Trejo
+    weight: 41021
+  - key: House
+    weight: 41000
+  - key: Reilly
+    weight: 40884
+  - key: Pennington
+    weight: 40854
+  - key: Michael
+    weight: 40736
+  - key: Conrad
+    weight: 40707
+  - key: Giles
+    weight: 40598
+  - key: Benjamin
+    weight: 40590
+  - key: Crosby
+    weight: 40563
+  - key: Fitzpatrick
+    weight: 40449
+  - key: Donovan
+    weight: 40410
+  - key: Mays
+    weight: 40408
+  - key: Mahoney
+    weight: 40397
+  - key: Valentine
+    weight: 40395
+  - key: Raymond
+    weight: 40275
+  - key: Medrano
+    weight: 40261
+  - key: Hahn
+    weight: 40250
+  - key: Mcmillan
+    weight: 40237
+  - key: Small
+    weight: 40212
+  - key: Bentley
+    weight: 40193
+  - key: Felix
+    weight: 40165
+  - key: Peck
+    weight: 40055
+  - key: Lucero
+    weight: 39986
+  - key: Boyle
+    weight: 39921
+  - key: Hanna
+    weight: 39890
+  - key: Pace
+    weight: 39879
+  - key: Rush
+    weight: 39802
+  - key: Hurley
+    weight: 39796
+  - key: Harding
+    weight: 39787
+  - key: Mcconnell
+    weight: 39754
+  - key: Bernal
+    weight: 39693
+  - key: Nava
+    weight: 39670
+  - key: Ayers
+    weight: 39623
+  - key: Everett
+    weight: 39593
+  - key: Ventura
+    weight: 39580
+  - key: Avery
+    weight: 39564
+  - key: Pugh
+    weight: 39559
+  - key: Mayer
+    weight: 39555
+  - key: Bender
+    weight: 39551
+  - key: Shepard
+    weight: 39430
+  - key: Mcmahon
+    weight: 39411
+  - key: Landry
+    weight: 39391
+  - key: Case
+    weight: 39319
+  - key: Sampson
+    weight: 39277
+  - key: Moses
+    weight: 39216
+  - key: Magana
+    weight: 39105
+  - key: Blackburn
+    weight: 39097
+  - key: Dunlap
+    weight: 39063
+  - key: Gould
+    weight: 38924
+  - key: Duffy
+    weight: 38835
+  - key: Vaughan
+    weight: 38830
+  - key: Herring
+    weight: 38733
+  - key: Mckay
+    weight: 38681
+  - key: Espinosa
+    weight: 38667
+  - key: Rivers
+    weight: 38662
+  - key: Farley
+    weight: 38528
+  - key: Bernard
+    weight: 38512
+  - key: Ashley
+    weight: 38499
+  - key: Friedman
+    weight: 38374
+  - key: Potts
+    weight: 38277
+  - key: Truong
+    weight: 38267
+  - key: Costa
+    weight: 38265
+  - key: Correa
+    weight: 38232
+  - key: Blevins
+    weight: 38229
+  - key: Nixon
+    weight: 38147
+  - key: Clements
+    weight: 38044
+  - key: Fry
+    weight: 38029
+  - key: Delarosa
+    weight: 37932
+  - key: Best
+    weight: 37923
+  - key: Benton
+    weight: 37912
+  - key: Lugo
+    weight: 37903
+  - key: Portillo
+    weight: 37890
+  - key: Dougherty
+    weight: 37884
+  - key: Crane
+    weight: 37870
+  - key: Haley
+    weight: 37858
+  - key: Phan
+    weight: 37836
+  - key: Villalobos
+    weight: 37754
+  - key: Blanchard
+    weight: 37695
+  - key: Horne
+    weight: 37689
+  - key: Finley
+    weight: 37672
+  - key: Quintana
+    weight: 37657
+  - key: Lynn
+    weight: 37644
+  - key: Esquivel
+    weight: 37578
+  - key: Bean
+    weight: 37571
+  - key: Dodson
+    weight: 37566
+  - key: Mullen
+    weight: 37502
+  - key: Xiong
+    weight: 37499
+  - key: Hayden
+    weight: 37451
+  - key: Cano
+    weight: 37368
+  - key: Levy
+    weight: 37228
+  - key: Huber
+    weight: 37170
+  - key: Richmond
+    weight: 37053
+  - key: Moyer
+    weight: 37050
+  - key: Lim
+    weight: 37021
+  - key: Frye
+    weight: 36973
+  - key: Sheppard
+    weight: 36960
+  - key: Mccarty
+    weight: 36944
+  - key: Avalos
+    weight: 36922
+  - key: Booker
+    weight: 36840
+  - key: Waller
+    weight: 36805
+  - key: Parra
+    weight: 36765
+  - key: Woodward
+    weight: 36764
+  - key: Jaramillo
+    weight: 36755
+  - key: Krueger
+    weight: 36743
+  - key: Rasmussen
+    weight: 36636
+  - key: Brandt
+    weight: 36613
+  - key: Peralta
+    weight: 36585
+  - key: Donaldson
+    weight: 36558
+  - key: Stuart
+    weight: 36540
+  - key: Faulkner
+    weight: 36466
+  - key: Maynard
+    weight: 36460
+  - key: Galindo
+    weight: 36429
+  - key: Coffey
+    weight: 36423
+  - key: Estes
+    weight: 36318
+  - key: Sanford
+    weight: 36312
+  - key: Burch
+    weight: 36269
+  - key: Maddox
+    weight: 36250
+  - key: Vo
+    weight: 36236
+  - key: Oconnell
+    weight: 36194
+  - key: Vu
+    weight: 36179
+  - key: Andersen
+    weight: 36150
+  - key: Spence
+    weight: 36129
+  - key: Mcpherson
+    weight: 36125
+  - key: Church
+    weight: 36072
+  - key: Schmitt
+    weight: 36043
+  - key: Stanton
+    weight: 35997
+  - key: Leal
+    weight: 35958
+  - key: Cherry
+    weight: 35877
+  - key: Compton
+    weight: 35830
+  - key: Dudley
+    weight: 35781
+  - key: Sierra
+    weight: 35770
+  - key: Pollard
+    weight: 35749
+  - key: Alfaro
+    weight: 35725
+  - key: Hester
+    weight: 35642
+  - key: Proctor
+    weight: 35636
+  - key: Lu
+    weight: 35628
+  - key: Hinton
+    weight: 35606
+  - key: Novak
+    weight: 35461
+  - key: Good
+    weight: 35446
+  - key: Madden
+    weight: 35438
+  - key: Mccann
+    weight: 35408
+  - key: Terrell
+    weight: 35408
+  - key: Jarvis
+    weight: 35350
+  - key: Dickson
+    weight: 35312
+  - key: Reyna
+    weight: 35291
+  - key: Cantrell
+    weight: 35266
+  - key: Mayo
+    weight: 35228
+  - key: Branch
+    weight: 35225
+  - key: Hendrix
+    weight: 35194
+  - key: Rollins
+    weight: 35132
+  - key: Rowland
+    weight: 35121
+  - key: Whitney
+    weight: 35118
+  - key: Duke
+    weight: 35053
+  - key: Odom
+    weight: 35020
+  - key: Daugherty
+    weight: 34987
+  - key: Travis
+    weight: 34985
+  - key: Tang
+    weight: 34961
+  - key: Archer
+    weight: 34949

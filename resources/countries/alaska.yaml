@@ -1,0 +1,405 @@
+---
+Alaska (USA): # 2018: https://www.ssa.gov/cgi-bin/namesbystate.cgi
+  givenNames:
+    male:
+      - key: Oliver
+        weight: 53
+      - key: Logan
+        weight: 43
+      - key: Liam
+        weight: 41
+      - key: Benjamin
+        weight: 39
+      - key: Michael
+        weight: 38
+      - key: Elijah
+        weight: 37
+      - key: James
+        weight: 36
+      - key: William
+        weight: 33
+      - key: Grayson
+        weight: 31
+      - key: Jackson
+        weight: 30
+      - key: John
+        weight: 30
+      - key: Lincoln
+        weight: 30
+      - key: Joseph
+        weight: 29
+      - key: Luke
+        weight: 29
+      - key: Noah
+        weight: 29
+      - key: Ezra
+        weight: 28
+      - key: Matthew
+        weight: 28
+      - key: Owen
+        weight: 28
+      - key: Jacob
+        weight: 27
+      - key: Samuel
+        weight: 27
+      - key: Ethan
+        weight: 26
+      - key: Levi
+        weight: 26
+      - key: Henry
+        weight: 25
+      - key: David
+        weight: 24
+      - key: Theodore
+        weight: 24
+      - key: Connor
+        weight: 23
+      - key: Declan
+        weight: 23
+      - key: Jeremiah
+        weight: 23
+      - key: Carter
+        weight: 22
+      - key: Mason
+        weight: 22
+      - key: Daniel
+        weight: 21
+      - key: Josiah
+        weight: 21
+      - key: Cooper
+        weight: 20
+      - key: Gabriel
+        weight: 20
+      - key: Lucas
+        weight: 20
+      - key: Sebastian
+        weight: 20
+      - key: Wyatt
+        weight: 20
+      - key: Colton
+        weight: 19
+      - key: Jack
+        weight: 19
+      - key: Orion
+        weight: 19
+      - key: Robert
+        weight: 19
+      - key: Ryan
+        weight: 19
+      - key: Silas
+        weight: 19
+      - key: Ezekiel
+        weight: 18
+      - key: Isaiah
+        weight: 18
+      - key: Joshua
+        weight: 18
+      - key: Alexander
+        weight: 17
+      - key: Caleb
+        weight: 17
+      - key: Emmett
+        weight: 17
+      - key: Hunter
+        weight: 17
+      - key: Ryker
+        weight: 17
+      - key: Anthony
+        weight: 16
+      - key: Asher
+        weight: 16
+      - key: Carson
+        weight: 16
+      - key: Charles
+        weight: 16
+      - key: Christopher
+        weight: 16
+      - key: Isaac
+        weight: 16
+      - key: Parker
+        weight: 16
+      - key: Sawyer
+        weight: 16
+      - key: Elias
+        weight: 15
+      - key: Everett
+        weight: 15
+      - key: Jaxson
+        weight: 15
+      - key: Mateo
+        weight: 15
+      - key: Timothy
+        weight: 15
+      - key: Landon
+        weight: 14
+      - key: Nolan
+        weight: 14
+      - key: Adam
+        weight: 13
+      - key: Aiden
+        weight: 13
+      - key: Andrew
+        weight: 13
+      - key: Jace
+        weight: 13
+      - key: Jonathan
+        weight: 13
+      - key: Micah
+        weight: 13
+      - key: Thomas
+        weight: 13
+      - key: Aaron
+        weight: 12
+      - key: Beau
+        weight: 12
+      - key: Calvin
+        weight: 12
+      - key: George
+        weight: 12
+      - key: Hudson
+        weight: 12
+      - key: Ian
+        weight: 12
+      - key: Maverick
+        weight: 12
+      - key: Ronan
+        weight: 12
+      - key: Ryder
+        weight: 12
+      - key: Dylan
+        weight: 11
+      - key: Greyson
+        weight: 11
+      - key: Harrison
+        weight: 11
+      - key: Jameson
+        weight: 11
+      - key: Rowan
+        weight: 11
+      - key: August
+        weight: 10
+      - key: Brayden
+        weight: 10
+      - key: Cameron
+        weight: 10
+      - key: Elliott
+        weight: 10
+      - key: Jaxon
+        weight: 10
+      - key: Leo
+        weight: 10
+      - key: Max
+        weight: 10
+      - key: Milo
+        weight: 10
+      - key: Myles
+        weight: 10
+      - key: Nathaniel
+        weight: 10
+      - key: Tyler
+        weight: 10
+      - key: Waylon
+        weight: 10
+      - key: Wesley
+        weight: 10
+    female:
+      - key: Aurora
+        weight: 45
+      - key: Amelia
+        weight: 43
+      - key: Charlotte
+        weight: 43
+      - key: Olivia
+        weight: 43
+      - key: Sophia
+        weight: 40
+      - key: Emma
+        weight: 39
+      - key: Evelyn
+        weight: 35
+      - key: Harper
+        weight: 29
+      - key: Mia
+        weight: 27
+      - key: Ava
+        weight: 26
+      - key: Eleanor
+        weight: 24
+      - key: Isabella
+        weight: 24
+      - key: Penelope
+        weight: 24
+      - key: Elizabeth
+        weight: 23
+      - key: Ella
+        weight: 23
+      - key: Grace
+        weight: 21
+      - key: Hannah
+        weight: 21
+      - key: Lily
+        weight: 21
+      - key: Hazel
+        weight: 20
+      - key: Emily
+        weight: 19
+      - key: Aria
+        weight: 18
+      - key: Lillian
+        weight: 18
+      - key: Scarlett
+        weight: 18
+      - key: Abigail
+        weight: 16
+      - key: Anna
+        weight: 16
+      - key: Addison
+        weight: 15
+      - key: Claire
+        weight: 15
+      - key: Everly
+        weight: 15
+      - key: Isla
+        weight: 15
+      - key: Luna
+        weight: 15
+      - key: Nora
+        weight: 15
+      - key: Violet
+        weight: 15
+      - key: Zoey
+        weight: 15
+      - key: Avery
+        weight: 14
+      - key: Josephine
+        weight: 14
+      - key: Juniper
+        weight: 14
+      - key: Adeline
+        weight: 13
+      - key: Alice
+        weight: 13
+      - key: Ellie
+        weight: 13
+      - key: Kylie
+        weight: 13
+      - key: Natalie
+        weight: 13
+      - key: Piper
+        weight: 13
+      - key: Riley
+        weight: 13
+      - key: Sadie
+        weight: 13
+      - key: Serenity
+        weight: 13
+      - key: Zoe
+        weight: 13
+      - key: Athena
+        weight: 12
+      - key: Brooklyn
+        weight: 12
+      - key: Elena
+        weight: 12
+      - key: Freya
+        weight: 12
+      - key: Kinsley
+        weight: 12
+      - key: Nova
+        weight: 12
+      - key: Paisley
+        weight: 12
+      - key: Reagan
+        weight: 12
+      - key: Willow
+        weight: 12
+      - key: Chloe
+        weight: 11
+      - key: Clara
+        weight: 11
+      - key: Ember
+        weight: 11
+      - key: Madison
+        weight: 11
+      - key: Peyton
+        weight: 11
+      - key: Stella
+        weight: 11
+      - key: Allison
+        weight: 10
+      - key: Arianna
+        weight: 10
+      - key: Audrey
+        weight: 10
+      - key: Eva
+        weight: 10
+      - key: Hope
+        weight: 10
+      - key: Iris
+        weight: 10
+      - key: Ivy
+        weight: 10
+      - key: Jade
+        weight: 10
+      - key: Kaylee
+        weight: 10
+      - key: Lucy
+        weight: 10
+      - key: Lydia
+        weight: 10
+      - key: Quinn
+        weight: 10
+      - key: Victoria
+        weight: 10
+      - key: Adaline
+        weight: 9
+      - key: Alyssa
+        weight: 9
+      - key: Anastasia
+        weight: 9
+      - key: Aubrey
+        weight: 9
+      - key: Ayla
+        weight: 9
+      - key: Brooke
+        weight: 9
+      - key: Eden
+        weight: 9
+      - key: Leah
+        weight: 9
+      - key: Margaret
+        weight: 9
+      - key: Mila
+        weight: 9
+      - key: Ruby
+        weight: 9
+      - key: Adalynn
+        weight: 8
+      - key: Alexis
+        weight: 8
+      - key: Arabella
+        weight: 8
+      - key: Brielle
+        weight: 8
+      - key: Caroline
+        weight: 8
+      - key: Charlie
+        weight: 8
+      - key: Cora
+        weight: 8
+      - key: Daisy
+        weight: 8
+      - key: Eliana
+        weight: 8
+      - key: Emery
+        weight: 8
+      - key: Faith
+        weight: 8
+      - key: Julia
+        weight: 8
+      - key: Liliana
+        weight: 8
+      - key: Lilly
+        weight: 8
+      - key: Mckinley
+        weight: 8
