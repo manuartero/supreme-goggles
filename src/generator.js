@@ -52,18 +52,32 @@ const chooseRealName = ({ genre, country }) => {
   return { givenName, familyName };
 };
 
+const chooseInnerDrives = () => {
+  const innerDrives = read("resources.inner-drives");
+  const drives = [random.pick(innerDrives)];
+  if (!drives[0].unique && random.play("25%")) {
+    const secondDrive = random.pick(innerDrives);
+    if (!secondDrive.unique && secondDrive.key !== drives[0].key) {
+      drives.push(secondDrive);
+    }
+  }
+  return drives;
+};
+
 const generateHero = (opts) => {
   const heroClass = chooseHeroClass();
   const habilities = chooseHabilities({ heroClass });
   const country = chooseCountry();
   const genre = chooseGenre();
   const realName = chooseRealName({ country, genre });
+  const innerDrives = chooseInnerDrives();
   return {
     country: keyWithIcon(country),
     genre,
     realName: `${realName.givenName} ${realName.familyName}`,
     heroClass: keyWithIcon(heroClass),
     habilities: habilities.map(keyWithIcon),
+    innerDrives: innerDrives.map((e) => e.key),
   };
 };
 

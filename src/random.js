@@ -21,6 +21,8 @@ const randomGenerator = (randomSeed) => {
 
   const number = (low, high) => Math.floor(random() * (high - low + 1) + low);
 
+  const play = (bet) => number(1, 100) <= bet.split("%")[0];
+
   /**
    * @param {Array<number>} weights
    * @param {number}
@@ -67,6 +69,7 @@ const randomGenerator = (randomSeed) => {
     seed,
     number,
     pick,
+    play,
   };
 };
 

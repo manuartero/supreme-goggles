@@ -1,0 +1,39 @@
+---
+- key: Justice
+  weight: 10
+- key: Altruism
+  weight: 10
+- key: Responsability
+  weight: 10
+- key: Boredom
+  weight: 2
+  unique: true
+- key: Loyalty
+  weight: 10
+  bounds:
+    - Person
+    - Friends
+    - Country
+- key: Fame
+  weight: 10
+- key: Paycheck
+  weight: 2
+  unique: true
+- key: Honour
+  weight: 10
+- key: Vengeance
+  weight: 10
+- key: Indebtedness # debt
+  weight: 10
+- key: Supreme Good
+  weight: 10
+- key: Power
+  weight: 10
+- key: Chaos
+  weight: 1
+  unique: true
+# - key: Personal Crusade
+
+# ...
+# collisions:
+#   - [Altruism, Power]
