@@ -3,6 +3,8 @@ const { randomGenerator } = require("./random");
 
 const random = randomGenerator();
 
+const keyWithIcon = ({ key, icon }) => `${key} ${icon}`;
+
 const chooseHeroClass = () => {
   const heroClasses = read("hero-class");
   return random.pick(heroClasses);
@@ -21,6 +23,7 @@ const chooseHabilities = ({ heroClass }) => {
   const habilities = [];
   while (habilities.length < numberOfHabilities) {
     const hability = random.pick(heroClass.habilities);
+    // avoid duplicates
     if (habilities.filter((e) => e.key === hability.key).length <= 0) {
       habilities.push(hability);
     }
@@ -55,8 +58,8 @@ const generateHero = (opts) => {
     country,
     genre,
     realName,
-    heroClass: heroClass.key,
-    habilities: habilities.map((obj) => obj.key),
+    heroClass: keyWithIcon(heroClass),
+    habilities: habilities.map(keyWithIcon),
   };
 };
 

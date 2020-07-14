@@ -1,92 +1,132 @@
 ---
 - key: Weapon Master
-  weight: 35
-  habilities:
-    - key: Claws
-      weight: 5
+  weight: 35 # / 100
+  icon: 🏹
+  habilities: # / 50
     - key: Shooter
       weight: 10
-    - key: Pilot
-      weight: 5
-    - key: Robotic Improvements
-      weight: 5
+      icon: 🏹
     - key: Martial Arts
       weight: 10
-    - key: Soldier
-      weight: 5
+      icon: 🥋
     - key: Gadgets Mastery
       weight: 10
+      icon: 🎱
+    - key: Claws
+      weight: 5
+      icon: 🐅
+    - key: Pilot
+      weight: 5
+      icon: 🏍
+    - key: Robotic Improvements
+      weight: 5
+      icon: ⚙️
+    - key: Soldier
+      weight: 5
+      icon: 🎖
 
 - key: Sidekick
-  weight: 10
+  weight: 10 # 100
+  icon: ♟
   habilities: []
 
 - key: Strategos
-  weight: 15
-  habilities:
-    - key: Impersonation
-      weight: 5
+  weight: 15 # / 100
+  icon: ⏳
+  habilities: # /50
+    - key: Mastermind
+      weight: 10
+      icon: 💡
     - key: Hacker
       weight: 10
-    - key: Mastermind
-      weight: 5
-    - key: Gadgets Mastery
-      weight: 5
-    - key: Master of Puppets
+      icon: 💻
+    - key: Science Genious
       weight: 10
-    - key: Scientist
-      weight: 5
-    - key: Soldier
-      weight: 10
-
-- key: Enhanced
-  weight: 25
-  habilities:
-    - key: Hard Skin
-      weight: 5
-    - key: Fly
-      weight: 10
-    - key: Superior Strength
-      weight: 5
-    - key: Claws
-      weight: 5
-    - key: Intuition
-      weight: 10
+      icon: 🔬
     - key: Impersonation
       weight: 5
+      icon: 🎭
+    - key: Gadgets Mastery
+      weight: 5
+      icon: 🎱
+    - key: Master of Puppets
+      weight: 5
+      icon: 🎎
+    - key: Soldier
+      weight: 5
+      icon: 🎖
+
+- key: Enhanced
+  weight: 25 # /100
+  icon: 🧬
+  habilities:
+    - key: Superior Strength
+      weight: 8
+      icon: 🦍
+    - key: Fly
+      weight: 7
+      icon: 🦅
+    - key: Hard Skin
+      weight: 7
+      icon: 💎
+    - key: Claws
+      weight: 7
+      icon: 🐅
+    - key: Intuition
+      weight: 7
+      icon: ❗️
+    - key: Impersonation
+      weight: 7
+      icon: 🎭
     - key: Extreme Speed
-      weight: 10
+      weight: 7
+      icon: ⏱
 
 - key: Super Natural
-  weight: 10
+  weight: 10 # /100
+  icon: ⚡️
   habilities:
-    - key: Weather Control
-      weight: 5
-    - key: Extreme Speed
-      weight: 10
     - key: Fire Power
-      weight: 5
+      weight: 9
+      icon: 🔥
+    - key: Weather Control
+      weight: 9
+      icon: 🌪
+    - key: Extreme Speed
+      weight: 9
+      icon: ⏱
+    - key: Nature Control
+      weight: 9
+      icon: 🌿
+    - key: Physics Breaker
+      weight: 9
+      icon: 🌀
     - key: Pure Power
       weight: 5
-    - key: Nature Control
-      weight: 10
-    - key: Physics Breaker
-      weight: 5
+      icon: 💫
 
 - key: Paranormal
-  weight: 5
+  weight: 5 # /100
+  icon: 🔮
   habilities:
     - key: Psychic
-      weight: 5
+      weight: 10
+      icon: 👁
     - key: Demonologist
       weight: 10
+      icon: 👹
     - key: Arcane Knowledge
-      weight: 5
+      weight: 10
+      icon: 📖
     - key: Intuition
       weight: 5
+      icon: ❗️
     - key: Master of Puppets
-      weight: 10
+      weight: 5
+      icon: 🎎
     - key: Physics Breaker
       weight: 5
+      icon: 🌀
     - key: Martial Arts
-      weight: 10
+      weight: 5
+      icon: 🥋
