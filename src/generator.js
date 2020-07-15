@@ -7,6 +7,12 @@ const keyWithIcon = ({ key, icon }) => `${key} ${icon} `;
 
 const DEFAULT_NAMES = read("resources.names.default");
 
+const chooseRace = () =>
+  random.pick([
+    { key: "Human", weight: 999 },
+    { key: "Extraterrestrial", weight: 1 },
+  ]).key;
+
 const chooseHeroClass = () => {
   const heroClasses = read("resources.hero-class");
   return random.pick(heroClasses);
@@ -33,7 +39,10 @@ const chooseHabilities = ({ heroClass }) => {
   return habilities;
 };
 
-const chooseCountry = () => {
+const chooseCountry = ({ race }) => {
+  if (race === "Extraterrestrial") {
+    return { key: "NA", icon: "" };
+  }
   const countries = listFileNames("resources.countries");
   const country = random.pick(countries);
   const countryObj = read(`resources.countries.${country}`);
@@ -42,9 +51,18 @@ const chooseCountry = () => {
   return { key, icon, countryInfo: countryObj[key] };
 };
 
-const chooseGenre = () => random.pick(["male", "female"]);
+const chooseGenre = ({ race }) => {
+  if (race === "Extraterrestrial" && random.play("50%")) {
+    return "NA";
+  }
+  return random.pick(["male", "female"]);
+};
 
-const chooseRealName = ({ genre, country }) => {
+const chooseRealName = ({ genre, country, race }) => {
+  if (race === "Extraterrestrial") {
+    const alienNames = read("resources.names.alien");
+    return { givenName: random.pick(alienNames), familyName: "" };
+  }
   const givenName = random.pick(country.countryInfo.givenNames[genre]).key;
   const familyName = country.countryInfo.familyNames
     ? random.pick(country.countryInfo.familyNames).key
@@ -65,15 +83,17 @@ const chooseInnerDrives = () => {
 };
 
 const generateHero = (opts) => {
+  const race = chooseRace();
   const heroClass = chooseHeroClass();
   const habilities = chooseHabilities({ heroClass });
-  const country = chooseCountry();
-  const genre = chooseGenre();
-  const realName = chooseRealName({ country, genre });
+  const country = chooseCountry({ race });
+  const genre = chooseGenre({ race });
+  const realName = chooseRealName({ country, genre, race });
   const innerDrives = chooseInnerDrives();
   return {
-    country: keyWithIcon(country),
+    race,
     genre,
+    country: keyWithIcon(country),
     realName: `${realName.givenName} ${realName.familyName}`,
     heroClass: keyWithIcon(heroClass),
     habilities: habilities.map(keyWithIcon),
