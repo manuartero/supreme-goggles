@@ -1,208 +1,209 @@
 ---
-Alaska (USA): # 2018: https://www.ssa.gov/cgi-bin/namesbystate.cgi
-  givenNames:
-    male:
-      - key: Oliver
-        weight: 53
-      - key: Logan
-        weight: 43
-      - key: Liam
-        weight: 41
-      - key: Benjamin
-        weight: 39
-      - key: Michael
-        weight: 38
-      - key: Elijah
-        weight: 37
-      - key: James
-        weight: 36
-      - key: William
-        weight: 33
-      - key: Grayson
-        weight: 31
-      - key: Jackson
-        weight: 30
-      - key: John
-        weight: 30
-      - key: Lincoln
-        weight: 30
-      - key: Joseph
-        weight: 29
-      - key: Luke
-        weight: 29
-      - key: Noah
-        weight: 29
-      - key: Ezra
-        weight: 28
-      - key: Matthew
-        weight: 28
-      - key: Owen
-        weight: 28
-      - key: Jacob
-        weight: 27
-      - key: Samuel
-        weight: 27
-      - key: Ethan
-        weight: 26
-      - key: Levi
-        weight: 26
-      - key: Henry
-        weight: 25
-      - key: David
-        weight: 24
-      - key: Theodore
-        weight: 24
-      - key: Connor
-        weight: 23
-      - key: Declan
-        weight: 23
-      - key: Jeremiah
-        weight: 23
-      - key: Carter
-        weight: 22
-      - key: Mason
-        weight: 22
-      - key: Daniel
-        weight: 21
-      - key: Josiah
-        weight: 21
-      - key: Cooper
-        weight: 20
-      - key: Gabriel
-        weight: 20
-      - key: Lucas
-        weight: 20
-      - key: Sebastian
-        weight: 20
-      - key: Wyatt
-        weight: 20
-      - key: Colton
-        weight: 19
-      - key: Jack
-        weight: 19
-      - key: Orion
-        weight: 19
-      - key: Robert
-        weight: 19
-      - key: Ryan
-        weight: 19
-      - key: Silas
-        weight: 19
-      - key: Ezekiel
-        weight: 18
-      - key: Isaiah
-        weight: 18
-      - key: Joshua
-        weight: 18
-      - key: Alexander
-        weight: 17
-      - key: Caleb
-        weight: 17
-      - key: Emmett
-        weight: 17
-      - key: Hunter
-        weight: 17
-      - key: Ryker
-        weight: 17
-      - key: Anthony
-        weight: 16
-      - key: Asher
-        weight: 16
-      - key: Carson
-        weight: 16
-      - key: Charles
-        weight: 16
-      - key: Christopher
-        weight: 16
-      - key: Isaac
-        weight: 16
-      - key: Parker
-        weight: 16
-      - key: Sawyer
-        weight: 16
-      - key: Elias
-        weight: 15
-      - key: Everett
-        weight: 15
-      - key: Jaxson
-        weight: 15
-      - key: Mateo
-        weight: 15
-      - key: Timothy
-        weight: 15
-      - key: Landon
-        weight: 14
-      - key: Nolan
-        weight: 14
-      - key: Adam
-        weight: 13
-      - key: Aiden
-        weight: 13
-      - key: Andrew
-        weight: 13
-      - key: Jace
-        weight: 13
-      - key: Jonathan
-        weight: 13
-      - key: Micah
-        weight: 13
-      - key: Thomas
-        weight: 13
-      - key: Aaron
-        weight: 12
-      - key: Beau
-        weight: 12
-      - key: Calvin
-        weight: 12
-      - key: George
-        weight: 12
-      - key: Hudson
-        weight: 12
-      - key: Ian
-        weight: 12
-      - key: Maverick
-        weight: 12
-      - key: Ronan
-        weight: 12
-      - key: Ryder
-        weight: 12
-      - key: Dylan
-        weight: 11
-      - key: Greyson
-        weight: 11
-      - key: Harrison
-        weight: 11
-      - key: Jameson
-        weight: 11
-      - key: Rowan
-        weight: 11
-      - key: August
-        weight: 10
-      - key: Brayden
-        weight: 10
-      - key: Cameron
-        weight: 10
-      - key: Elliott
-        weight: 10
-      - key: Jaxon
-        weight: 10
-      - key: Leo
-        weight: 10
-      - key: Max
-        weight: 10
-      - key: Milo
-        weight: 10
-      - key: Myles
-        weight: 10
-      - key: Nathaniel
-        weight: 10
-      - key: Tyler
-        weight: 10
-      - key: Waylon
-        weight: 10
-      - key: Wesley
-        weight: 10
-    female:
+key: Alaska (USA) # 2018: https://www.ssa.gov/cgi-bin/namesbystate.cgi
+icon: 🇺🇸
+givenNames:
+  male:
+    - key: Oliver
+      weight: 53
+    - key: Logan
+      weight: 43
+    - key: Liam
+      weight: 41
+    - key: Benjamin
+      weight: 39
+    - key: Michael
+      weight: 38
+    - key: Elijah
+      weight: 37
+    - key: James
+      weight: 36
+    - key: William
+      weight: 33
+    - key: Grayson
+      weight: 31
+    - key: Jackson
+      weight: 30
+    - key: John
+      weight: 30
+    - key: Lincoln
+      weight: 30
+    - key: Joseph
+      weight: 29
+    - key: Luke
+      weight: 29
+    - key: Noah
+      weight: 29
+    - key: Ezra
+      weight: 28
+    - key: Matthew
+      weight: 28
+    - key: Owen
+      weight: 28
+    - key: Jacob
+      weight: 27
+    - key: Samuel
+      weight: 27
+    - key: Ethan
+      weight: 26
+    - key: Levi
+      weight: 26
+    - key: Henry
+      weight: 25
+    - key: David
+      weight: 24
+    - key: Theodore
+      weight: 24
+    - key: Connor
+      weight: 23
+    - key: Declan
+      weight: 23
+    - key: Jeremiah
+      weight: 23
+    - key: Carter
+      weight: 22
+    - key: Mason
+      weight: 22
+    - key: Daniel
+      weight: 21
+    - key: Josiah
+      weight: 21
+    - key: Cooper
+      weight: 20
+    - key: Gabriel
+      weight: 20
+    - key: Lucas
+      weight: 20
+    - key: Sebastian
+      weight: 20
+    - key: Wyatt
+      weight: 20
+    - key: Colton
+      weight: 19
+    - key: Jack
+      weight: 19
+    - key: Orion
+      weight: 19
+    - key: Robert
+      weight: 19
+    - key: Ryan
+      weight: 19
+    - key: Silas
+      weight: 19
+    - key: Ezekiel
+      weight: 18
+    - key: Isaiah
+      weight: 18
+    - key: Joshua
+      weight: 18
+    - key: Alexander
+      weight: 17
+    - key: Caleb
+      weight: 17
+    - key: Emmett
+      weight: 17
+    - key: Hunter
+      weight: 17
+    - key: Ryker
+      weight: 17
+    - key: Anthony
+      weight: 16
+    - key: Asher
+      weight: 16
+    - key: Carson
+      weight: 16
+    - key: Charles
+      weight: 16
+    - key: Christopher
+      weight: 16
+    - key: Isaac
+      weight: 16
+    - key: Parker
+      weight: 16
+    - key: Sawyer
+      weight: 16
+    - key: Elias
+      weight: 15
+    - key: Everett
+      weight: 15
+    - key: Jaxson
+      weight: 15
+    - key: Mateo
+      weight: 15
+    - key: Timothy
+      weight: 15
+    - key: Landon
+      weight: 14
+    - key: Nolan
+      weight: 14
+    - key: Adam
+      weight: 13
+    - key: Aiden
+      weight: 13
+    - key: Andrew
+      weight: 13
+    - key: Jace
+      weight: 13
+    - key: Jonathan
+      weight: 13
+    - key: Micah
+      weight: 13
+    - key: Thomas
+      weight: 13
+    - key: Aaron
+      weight: 12
+    - key: Beau
+      weight: 12
+    - key: Calvin
+      weight: 12
+    - key: George
+      weight: 12
+    - key: Hudson
+      weight: 12
+    - key: Ian
+      weight: 12
+    - key: Maverick
+      weight: 12
+    - key: Ronan
+      weight: 12
+    - key: Ryder
+      weight: 12
+    - key: Dylan
+      weight: 11
+    - key: Greyson
+      weight: 11
+    - key: Harrison
+      weight: 11
+    - key: Jameson
+      weight: 11
+    - key: Rowan
+      weight: 11
+    - key: August
+      weight: 10
+    - key: Brayden
+      weight: 10
+    - key: Cameron
+      weight: 10
+    - key: Elliott
+      weight: 10
+    - key: Jaxon
+      weight: 10
+    - key: Leo
+      weight: 10
+    - key: Max
+      weight: 10
+    - key: Milo
+      weight: 10
+    - key: Myles
+      weight: 10
+    - key: Nathaniel
+      weight: 10
+    - key: Tyler
+      weight: 10
+    - key: Waylon
+      weight: 10
+    - key: Wesley
+      weight: 10
+  female:
       - key: Aurora
         weight: 45
       - key: Amelia

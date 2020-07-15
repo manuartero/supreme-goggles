@@ -1,208 +1,209 @@
 ---
-Arkansas (USA): # 2018: https://www.ssa.gov/cgi-bin/namesbystate.cgi
-  givenNames:
-    male:
-      - key: Noah
-        weight: 159
-      - key: Elijah
-        weight: 158
-      - key: William
-        weight: 155
-      - key: Liam
-        weight: 134
-      - key: Oliver
-        weight: 125
-      - key: Wyatt
-        weight: 121
-      - key: Michael
-        weight: 118
-      - key: Aiden
-        weight: 112
-      - key: James
-        weight: 109
-      - key: Mason
-        weight: 109
-      - key: John
-        weight: 107
-      - key: Asher
-        weight: 106
-      - key: Jackson
-        weight: 106
-      - key: Samuel
-        weight: 102
-      - key: Carter
-        weight: 101
-      - key: Jaxon
-        weight: 100
-      - key: Hudson
-        weight: 99
-      - key: Benjamin
-        weight: 97
-      - key: Jacob
-        weight: 97
-      - key: Grayson
-        weight: 96
-      - key: Logan
-        weight: 92
-      - key: Henry
-        weight: 88
-      - key: Sawyer
-        weight: 88
-      - key: Levi
-        weight: 86
-      - key: Luke
-        weight: 86
-      - key: Ethan
-        weight: 84
-      - key: Gabriel
-        weight: 82
-      - key: Easton
-        weight: 79
-      - key: David
-        weight: 77
-      - key: Alexander
-        weight: 76
-      - key: Maverick
-        weight: 75
-      - key: Lucas
-        weight: 73
-      - key: Isaiah
-        weight: 71
-      - key: Jayden
-        weight: 71
-      - key: Christopher
-        weight: 67
-      - key: Jack
-        weight: 67
-      - key: Lincoln
-        weight: 67
-      - key: Bryson
-        weight: 66
-      - key: Hunter
-        weight: 66
-      - key: Jace
-        weight: 66
-      - key: Bentley
-        weight: 64
-      - key: Cooper
-        weight: 64
-      - key: Josiah
-        weight: 64
-      - key: Carson
-        weight: 63
-      - key: Jaxson
-        weight: 62
-      - key: Owen
-        weight: 62
-      - key: Caleb
-        weight: 61
-      - key: Sebastian
-        weight: 61
-      - key: Braxton
-        weight: 60
-      - key: Dylan
-        weight: 60
-      - key: Isaac
-        weight: 60
-      - key: Kingston
-        weight: 60
-      - key: Thomas
-        weight: 60
-      - key: Eli
-        weight: 59
-      - key: Charles
-        weight: 58
-      - key: Connor
-        weight: 58
-      - key: Rhett
-        weight: 58
-      - key: Joseph
-        weight: 57
-      - key: Matthew
-        weight: 57
-      - key: Waylon
-        weight: 55
-      - key: Silas
-        weight: 54
-      - key: Maddox
-        weight: 52
-      - key: Andrew
-        weight: 51
-      - key: Mateo
-        weight: 51
-      - key: Daniel
-        weight: 50
-      - key: Ezra
-        weight: 50
-      - key: Jeremiah
-        weight: 50
-      - key: Jordan
-        weight: 49
-      - key: Roman
-        weight: 49
-      - key: Christian
-        weight: 48
-      - key: Ryder
-        weight: 48
-      - key: Emmett
-        weight: 47
-      - key: Greyson
-        weight: 47
-      - key: Jasper
-        weight: 46
-      - key: Kaiden
-        weight: 46
-      - key: Parker
-        weight: 46
-      - key: Ryker
-        weight: 46
-      - key: Weston
-        weight: 46
-      - key: Brayden
-        weight: 45
-      - key: Dawson
-        weight: 45
-      - key: Kayden
-        weight: 45
-      - key: Joshua
-        weight: 44
-      - key: River
-        weight: 44
-      - key: Axel
-        weight: 43
-      - key: Landon
-        weight: 43
-      - key: Wesley
-        weight: 43
-      - key: Angel
-        weight: 42
-      - key: Beau
-        weight: 42
-      - key: Brooks
-        weight: 42
-      - key: Adrian
-        weight: 41
-      - key: Robert
-        weight: 41
-      - key: Colton
-        weight: 40
-      - key: Ryan
-        weight: 40
-      - key: Everett
-        weight: 39
-      - key: Aaron
-        weight: 38
-      - key: Hayden
-        weight: 38
-      - key: Ian
-        weight: 38
-      - key: Jonathan
-        weight: 38
-      - key: Elias
-        weight: 37
-      - key: Leo
-        weight: 37
-    female:
+key: Arkansas (USA) # 2018: https://www.ssa.gov/cgi-bin/namesbystate.cgi
+icon: 🇺🇸
+givenNames:
+  male:
+    - key: Noah
+      weight: 159
+    - key: Elijah
+      weight: 158
+    - key: William
+      weight: 155
+    - key: Liam
+      weight: 134
+    - key: Oliver
+      weight: 125
+    - key: Wyatt
+      weight: 121
+    - key: Michael
+      weight: 118
+    - key: Aiden
+      weight: 112
+    - key: James
+      weight: 109
+    - key: Mason
+      weight: 109
+    - key: John
+      weight: 107
+    - key: Asher
+      weight: 106
+    - key: Jackson
+      weight: 106
+    - key: Samuel
+      weight: 102
+    - key: Carter
+      weight: 101
+    - key: Jaxon
+      weight: 100
+    - key: Hudson
+      weight: 99
+    - key: Benjamin
+      weight: 97
+    - key: Jacob
+      weight: 97
+    - key: Grayson
+      weight: 96
+    - key: Logan
+      weight: 92
+    - key: Henry
+      weight: 88
+    - key: Sawyer
+      weight: 88
+    - key: Levi
+      weight: 86
+    - key: Luke
+      weight: 86
+    - key: Ethan
+      weight: 84
+    - key: Gabriel
+      weight: 82
+    - key: Easton
+      weight: 79
+    - key: David
+      weight: 77
+    - key: Alexander
+      weight: 76
+    - key: Maverick
+      weight: 75
+    - key: Lucas
+      weight: 73
+    - key: Isaiah
+      weight: 71
+    - key: Jayden
+      weight: 71
+    - key: Christopher
+      weight: 67
+    - key: Jack
+      weight: 67
+    - key: Lincoln
+      weight: 67
+    - key: Bryson
+      weight: 66
+    - key: Hunter
+      weight: 66
+    - key: Jace
+      weight: 66
+    - key: Bentley
+      weight: 64
+    - key: Cooper
+      weight: 64
+    - key: Josiah
+      weight: 64
+    - key: Carson
+      weight: 63
+    - key: Jaxson
+      weight: 62
+    - key: Owen
+      weight: 62
+    - key: Caleb
+      weight: 61
+    - key: Sebastian
+      weight: 61
+    - key: Braxton
+      weight: 60
+    - key: Dylan
+      weight: 60
+    - key: Isaac
+      weight: 60
+    - key: Kingston
+      weight: 60
+    - key: Thomas
+      weight: 60
+    - key: Eli
+      weight: 59
+    - key: Charles
+      weight: 58
+    - key: Connor
+      weight: 58
+    - key: Rhett
+      weight: 58
+    - key: Joseph
+      weight: 57
+    - key: Matthew
+      weight: 57
+    - key: Waylon
+      weight: 55
+    - key: Silas
+      weight: 54
+    - key: Maddox
+      weight: 52
+    - key: Andrew
+      weight: 51
+    - key: Mateo
+      weight: 51
+    - key: Daniel
+      weight: 50
+    - key: Ezra
+      weight: 50
+    - key: Jeremiah
+      weight: 50
+    - key: Jordan
+      weight: 49
+    - key: Roman
+      weight: 49
+    - key: Christian
+      weight: 48
+    - key: Ryder
+      weight: 48
+    - key: Emmett
+      weight: 47
+    - key: Greyson
+      weight: 47
+    - key: Jasper
+      weight: 46
+    - key: Kaiden
+      weight: 46
+    - key: Parker
+      weight: 46
+    - key: Ryker
+      weight: 46
+    - key: Weston
+      weight: 46
+    - key: Brayden
+      weight: 45
+    - key: Dawson
+      weight: 45
+    - key: Kayden
+      weight: 45
+    - key: Joshua
+      weight: 44
+    - key: River
+      weight: 44
+    - key: Axel
+      weight: 43
+    - key: Landon
+      weight: 43
+    - key: Wesley
+      weight: 43
+    - key: Angel
+      weight: 42
+    - key: Beau
+      weight: 42
+    - key: Brooks
+      weight: 42
+    - key: Adrian
+      weight: 41
+    - key: Robert
+      weight: 41
+    - key: Colton
+      weight: 40
+    - key: Ryan
+      weight: 40
+    - key: Everett
+      weight: 39
+    - key: Aaron
+      weight: 38
+    - key: Hayden
+      weight: 38
+    - key: Ian
+      weight: 38
+    - key: Jonathan
+      weight: 38
+    - key: Elias
+      weight: 37
+    - key: Leo
+      weight: 37
+  female:
       - key: Ava
         weight: 169
       - key: Olivia

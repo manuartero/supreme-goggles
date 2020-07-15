@@ -4,8 +4,10 @@ const { randomGenerator } = require("./random");
 const random = randomGenerator();
 
 const keyWithIcon = ({ key, icon }) => `${key} ${icon} `;
+const keys = (arr) => arr.map((e) => e.key);
 
 const DEFAULT_NAMES = read("resources.names.default");
+const HERO_NAMES = read("resources.hero-names");
 
 const chooseRace = () =>
   random.pick([
@@ -45,11 +47,10 @@ const chooseCountry = ({ race }) => {
   }
   const countries = listFileNames("resources.countries");
   const country = random.pick(countries);
-  const countryObj = read(`resources.countries.${country}`);
-  const key = Object.keys(countryObj)[0];
-  const icon = countryObj[key].icon || DEFAULT_NAMES.icon;
-  return { key, icon, countryInfo: countryObj[key] };
+  return read(`resources.countries.${country}`);
 };
+
+const simplifyCountry = ({ key }) => (key.includes("USA") ? "USA" : key);
 
 const chooseGenre = ({ race }) => {
   if (race === "Extraterrestrial" && random.play("50%")) {
@@ -63,9 +64,9 @@ const chooseRealName = ({ genre, country, race }) => {
     const alienNames = read("resources.names.alien");
     return { givenName: random.pick(alienNames), familyName: "" };
   }
-  const givenName = random.pick(country.countryInfo.givenNames[genre]).key;
-  const familyName = country.countryInfo.familyNames
-    ? random.pick(country.countryInfo.familyNames).key
+  const givenName = random.pick(country.givenNames[genre]).key;
+  const familyName = country.familyNames
+    ? random.pick(country.familyNames).key
     : random.pick(DEFAULT_NAMES.familyNames).key;
   return { givenName, familyName };
 };
@@ -82,6 +83,34 @@ const chooseInnerDrives = () => {
   return drives;
 };
 
+const keyValuePair = (obj) => {
+  const key = Object.keys(obj)[0];
+  const value = obj[key];
+  return { key, value };
+};
+
+/**
+ * @param {Array<string>} keys
+ */
+const chooseHeroName = (keys) => {
+  // console.log(keys);
+
+  const sumCompatibleWeights = (acc, currentValue) => {
+    const { compKey, compWeight } = keyValuePair(currentValue);
+    if (keys.includes(compKey)) {
+      acc += compWeight;
+    }
+    return acc;
+  };
+
+  const heroNamesCandidates = HERO_NAMES.map(({ key, compatibilities }) => {
+    const weight = compatibilities.reduce(sumCompatibleWeights, 0);
+    return { key, weight };
+  });
+
+  // console.log(heroNamesCandidates);
+};
+
 const generateHero = (opts) => {
   const race = chooseRace();
   const heroClass = chooseHeroClass();
@@ -90,6 +119,16 @@ const generateHero = (opts) => {
   const genre = chooseGenre({ race });
   const realName = chooseRealName({ country, genre, race });
   const innerDrives = chooseInnerDrives();
+  const nameKeys = [
+    race,
+    genre,
+    simplifyCountry(country),
+    heroClass.key,
+    ...keys(habilities),
+    ...keys(innerDrives),
+  ];
+  const heroName = random.play("80%") ? chooseHeroName(nameKeys) : realName;
+
   return {
     race,
     genre,
@@ -97,7 +136,8 @@ const generateHero = (opts) => {
     realName: `${realName.givenName} ${realName.familyName}`,
     heroClass: keyWithIcon(heroClass),
     habilities: habilities.map(keyWithIcon),
-    innerDrives: innerDrives.map((e) => e.key),
+    innerDrives: keys(innerDrives),
+    heroName,
   };
 };
 

@@ -1,0 +1,413 @@
+---
+# https://www.japantimes.co.jp/life/2009/10/11/lifestyle/japans-top-100-most-common-family-names/
+# https://www.babynamewizard.com/name-list/japanese-girls-names-most-popular-names-for-girls-in-japan
+key: Japan
+icon: 🇯🇵
+givenNames:
+  male:
+    - key: Haruto
+      weight: 51
+    - key: Yuto
+      weight: 50
+    - key: Sota
+      weight: 49
+    - key: Yuki
+      weight: 48
+    - key: Hayato
+      weight: 47
+    - key: Haruki
+      weight: 46
+    - key: Ryusei
+      weight: 45
+    - key: Koki
+      weight: 44
+    - key: Sora
+      weight: 43
+    - key: Sosuke
+      weight: 42
+    - key: Riku
+      weight: 41
+    - key: Soma
+      weight: 40
+    - key: Ryota
+      weight: 39
+    - key: Rui
+      weight: 38
+    - key: Kaito
+      weight: 37
+    - key: Haru
+      weight: 36
+    - key: Kota
+      weight: 35
+    - key: Yusei
+      weight: 34
+    - key: Yuito
+      weight: 33
+    - key: Yuma
+      weight: 32
+    - key: Ren
+      weight: 31
+    - key: Takumi
+      weight: 30
+    - key: Minato
+      weight: 29
+    - key: Eita
+      weight: 28
+    - key: Shota
+      weight: 27
+    - key: Daiki
+      weight: 26
+    - key: Hiroto
+      weight: 25
+    - key: Kosei
+      weight: 24
+    - key: Takeru
+      weight: 23
+    - key: Hinata
+      weight: 22
+    - key: Toma
+      weight: 21
+    - key: Manato
+      weight: 20
+    - key: Ryuki
+      weight: 19
+    - key: Rikuto
+      weight: 18
+    - key: Aoto
+      weight: 17
+    - key: Ibuki
+      weight: 16
+    - key: Tatsuki
+      weight: 15
+    - key: Haruma
+      weight: 14
+    - key: Yamato
+      weight: 13
+    - key: Ryuto
+      weight: 12
+    - key: Taisei
+      weight: 11
+    - key: Yuta
+      weight: 10
+    - key: Itsuki
+      weight: 9
+    - key: Soshi
+      weight: 8
+    - key: Taiga
+      weight: 7
+    - key: Kosuke
+      weight: 6
+    - key: Shoma
+      weight: 5
+    - key: Yushin
+      weight: 4
+    - key: Ryuga
+      weight: 3
+    - key: Ryo
+      weight: 2
+    - key: Rento
+      weight: 1
+  female:
+    - key: Yui
+      weight: 51
+    - key: Rio
+      weight: 50
+    - key: Yuna
+      weight: 49
+    - key: Hina
+      weight: 48
+    - key: Koharu
+      weight: 47
+    - key: Hinata
+      weight: 46
+    - key: Mei
+      weight: 45
+    - key: Mio
+      weight: 44
+    - key: Saki
+      weight: 43
+    - key: Miyu
+      weight: 42
+    - key: Kokona
+      weight: 41
+    - key: Haruka
+      weight: 40
+    - key: Rin
+      weight: 39
+    - key: Akari
+      weight: 38
+    - key: Yuna
+      weight: 37
+    - key: Honoka
+      weight: 36
+    - key: Momoka
+      weight: 35
+    - key: Aoi
+      weight: 34
+    - key: Ichika
+      weight: 33
+    - key: Sakura
+      weight: 32
+    - key: Himari
+      weight: 31
+    - key: Yume
+      weight: 30
+    - key: Airi
+      weight: 29
+    - key: Sara
+      weight: 28
+    - key: Nanami
+      weight: 27
+    - key: Ayaka
+      weight: 26
+    - key: Yuka
+      weight: 25
+    - key: Riko
+      weight: 24
+    - key: Noa
+      weight: 23
+    - key: Mao
+      weight: 22
+    - key: Yua
+      weight: 21
+    - key: Ayane
+      weight: 20
+    - key: Hiyori
+      weight: 19
+    - key: Misaki
+      weight: 18
+    - key: Yuzuki
+      weight: 17
+    - key: Rina
+      weight: 16
+    - key: Sana
+      weight: 15
+    - key: Ría
+      weight: 14
+    - key: Ruka
+      weight: 13
+    - key: Kanon
+      weight: 12
+    - key: Kaho
+      weight: 11
+    - key: Hana
+      weight: 10
+    - key: Karin
+      weight: 9
+    - key: Risa
+      weight: 8
+    - key: Shiori
+      weight: 7
+    - key: Fuka
+      weight: 6
+    - key: Rino
+      weight: 5
+    - key: Anna
+      weight: 4
+    - key: Natsuki
+      weight: 3
+    - key: Nana
+      weight: 2
+    - key: Reina
+      weight: 1
+familyNames:
+  - key: Sato
+    weight: 100
+  - key: Suzuki
+    weight: 99
+  - key: Takahashi
+    weight: 98
+  - key: Tanaka
+    weight: 97
+  - key: Watanabe
+    weight: 96
+  - key: Ito
+    weight: 95
+  - key: Yamamoto
+    weight: 94
+  - key: Nakamura
+    weight: 93
+  - key: Kobayashi
+    weight: 92
+  - key: Kato
+    weight: 91
+  - key: Yoshida
+    weight: 90
+  - key: Yamada
+    weight: 89
+  - key: Sasaki
+    weight: 88
+  - key: Yamaguchi
+    weight: 87
+  - key: Saito
+    weight: 86
+  - key: Matsumoto
+    weight: 85
+  - key: Inoue
+    weight: 84
+  - key: Kimura
+    weight: 83
+  - key: Hayashi
+    weight: 82
+  - key: Shimizu
+    weight: 81
+  - key: Yamazaki
+    weight: 80
+  - key: Mori
+    weight: 79
+  - key: Abe
+    weight: 78
+  - key: Ikeda
+    weight: 77
+  - key: Hashimoto
+    weight: 76
+  - key: Yamashita
+    weight: 75
+  - key: Ishikawa
+    weight: 74
+  - key: Nakajima
+    weight: 73
+  - key: Maeda
+    weight: 72
+  - key: Fujita
+    weight: 71
+  - key: Ogawa
+    weight: 70
+  - key: Goto
+    weight: 69
+  - key: Okada
+    weight: 68
+  - key: Hasegawa
+    weight: 67
+  - key: Murakami
+    weight: 66
+  - key: Kondo
+    weight: 65
+  - key: Ishii
+    weight: 64
+  - key: Saito
+    weight: 63
+  - key: Sakamoto
+    weight: 62
+  - key: Endo
+    weight: 61
+  - key: Aoki
+    weight: 60
+  - key: Fujii
+    weight: 59
+  - key: Nishimura
+    weight: 58
+  - key: Fukuda
+    weight: 57
+  - key: Ota
+    weight: 56
+  - key: Miura
+    weight: 55
+  - key: Fujiwara
+    weight: 54
+  - key: Okamoto
+    weight: 53
+  - key: Matsuda
+    weight: 52
+  - key: Nakagawa
+    weight: 51
+  - key: Nakano
+    weight: 50
+  - key: Harada
+    weight: 49
+  - key: Ono
+    weight: 48
+  - key: Tamura
+    weight: 47
+  - key: Takeuchi
+    weight: 46
+  - key: Kaneko
+    weight: 45
+  - key: Wada
+    weight: 44
+  - key: Nakayama
+    weight: 43
+  - key: Ishida
+    weight: 42
+  - key: Ueda
+    weight: 41
+  - key: Morita
+    weight: 40
+  - key: Hara
+    weight: 39
+  - key: Shibata
+    weight: 38
+  - key: Sakai
+    weight: 37
+  - key: Kudo
+    weight: 36
+  - key: Yokoyama
+    weight: 35
+  - key: Miyazaki
+    weight: 34
+  - key: Miyamoto
+    weight: 33
+  - key: Uchida
+    weight: 32
+  - key: Takagi
+    weight: 31
+  - key: Ando
+    weight: 30
+  - key: Taniguchi
+    weight: 29
+  - key: Ohno
+    weight: 28
+  - key: Maruyama
+    weight: 27
+  - key: Imai
+    weight: 26
+  - key: Takada
+    weight: 25
+  - key: Fujimoto
+    weight: 24
+  - key: Takeda
+    weight: 23
+  - key: Murata
+    weight: 22
+  - key: Ueno
+    weight: 21
+  - key: Sugiyama
+    weight: 20
+  - key: Masuda
+    weight: 19
+  - key: Sugawara
+    weight: 18
+  - key: Hirano
+    weight: 17
+  - key: Kojima
+    weight: 16
+  - key: Otsuka
+    weight: 15
+  - key: Chiba
+    weight: 14
+  - key: Kubo
+    weight: 13
+  - key: Matsui
+    weight: 12
+  - key: Iwasaki
+    weight: 11
+  - key: Sakurai
+    weight: 10
+  - key: Kinoshita
+    weight: 9
+  - key: Noguchi
+    weight: 8
+  - key: Matsuo
+    weight: 7
+  - key: Nomura
+    weight: 6
+  - key: Kikuchi
+    weight: 5
+  - key: Sano
+    weight: 4
+  - key: Onishi
+    weight: 3
+  - key: Sugimoto
+    weight: 2
+  - key: Arai
+    weight: 1

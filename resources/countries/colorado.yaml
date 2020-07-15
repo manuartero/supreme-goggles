@@ -1,405 +1,406 @@
 ---
-Colorado (USA): # 2010 https://www.ssa.gov/cgi-bin/namesbystate.cgi
-  givenNames:
-    male:
-      - key: Jacob
-        weight: 338
-      - key: Alexander
-        weight: 308
-      - key: Noah
-        weight: 283
-      - key: Daniel
-        weight: 265
-      - key: William
-        weight: 265
-      - key: Liam
-        weight: 251
-      - key: Elijah
-        weight: 245
-      - key: Logan
-        weight: 242
-      - key: Gabriel
-        weight: 241
-      - key: Samuel
-        weight: 241
-      - key: Anthony
-        weight: 239
-      - key: Michael
-        weight: 239
-      - key: Ethan
-        weight: 238
-      - key: Joshua
-        weight: 228
-      - key: Andrew
-        weight: 224
-      - key: Benjamin
-        weight: 222
-      - key: Mason
-        weight: 217
-      - key: Aiden
-        weight: 216
-      - key: Joseph
-        weight: 212
-      - key: James
-        weight: 210
-      - key: Isaac
-        weight: 208
-      - key: David
-        weight: 204
-      - key: Jackson
-        weight: 198
-      - key: Matthew
-        weight: 191
-      - key: Evan
-        weight: 187
-      - key: Dylan
-        weight: 182
-      - key: Jayden
-        weight: 181
-      - key: Christopher
-        weight: 179
-      - key: Owen
-        weight: 179
-      - key: Landon
-        weight: 177
-      - key: Caleb
-        weight: 172
-      - key: Ryan
-        weight: 170
-      - key: Tyler
-        weight: 169
-      - key: Jonathan
-        weight: 166
-      - key: Jack
-        weight: 165
-      - key: Wyatt
-        weight: 162
-      - key: Angel
-        weight: 161
-      - key: Eli
-        weight: 159
-      - key: Gavin
-        weight: 156
-      - key: Luke
-        weight: 154
-      - key: Connor
-        weight: 153
-      - key: Henry
-        weight: 151
-      - key: John
-        weight: 151
-      - key: Isaiah
-        weight: 139
-      - key: Josiah
-        weight: 139
-      - key: Nathan
-        weight: 139
-      - key: Christian
-        weight: 135
-      - key: Julian
-        weight: 129
-      - key: Hunter
-        weight: 128
-      - key: Jose
-        weight: 128
-      - key: Cooper
-        weight: 127
-      - key: Lucas
-        weight: 125
-      - key: Oliver
-        weight: 125
-      - key: Levi
-        weight: 124
-      - key: Adrian
-        weight: 122
-      - key: Brayden
-        weight: 122
-      - key: Zachary
-        weight: 122
-      - key: Dominic
-        weight: 121
-      - key: Ian
-        weight: 120
-      - key: Nicholas
-        weight: 118
-      - key: Thomas
-        weight: 118
-      - key: Aaron
-        weight: 116
-      - key: Austin
-        weight: 116
-      - key: Brandon
-        weight: 111
-      - key: Luis
-        weight: 110
-      - key: Diego
-        weight: 109
-      - key: Kevin
-        weight: 109
-      - key: Carter
-        weight: 107
-      - key: Xavier
-        weight: 107
-      - key: Charles
-        weight: 105
-      - key: Tristan
-        weight: 104
-      - key: Jordan
-        weight: 102
-      - key: Blake
-        weight: 100
-      - key: Robert
-        weight: 99
-      - key: Colton
-        weight: 98
-      - key: Sebastian
-        weight: 98
-      - key: Jeremiah
-        weight: 97
-      - key: Jesus
-        weight: 96
-      - key: Chase
-        weight: 95
-      - key: Cameron
-        weight: 93
-      - key: Ryder
-        weight: 88
-      - key: Brody
-        weight: 87
-      - key: Carlos
-        weight: 86
-      - key: Elias
-        weight: 85
-      - key: Jaxon
-        weight: 84
-      - key: Carson
-        weight: 82
-      - key: Juan
-        weight: 82
-      - key: Miles
-        weight: 81
-      - key: Justin
-        weight: 80
-      - key: Max
-        weight: 79
-      - key: Cole
-        weight: 78
-      - key: Adam
-        weight: 77
-      - key: Hayden
-        weight: 77
-      - key: Nathaniel
-        weight: 74
-      - key: Vincent
-        weight: 74
-      - key: Micah
-        weight: 71
-      - key: Parker
-        weight: 71
-      - key: Alejandro
-        weight: 70
-      - key: Ayden
-        weight: 70
-      - key: Grayson
-        weight: 70
-      - key: Mackenzie
-        weight: 50
-    female:
-      - key: Isabella
-        weight: 342
-      - key: Sophia
-        weight: 317
-      - key: Olivia
-        weight: 268
-      - key: Emma
-        weight: 266
-      - key: Abigail
-        weight: 245
-      - key: Ava
-        weight: 219
-      - key: Emily
-        weight: 210
-      - key: Elizabeth
-        weight: 205
-      - key: Madison
-        weight: 189
-      - key: Ella
-        weight: 175
-      - key: Addison
-        weight: 174
-      - key: Mia
-        weight: 167
-      - key: Avery
-        weight: 162
-      - key: Grace
-        weight: 161
-      - key: Lily
-        weight: 161
-      - key: Chloe
-        weight: 152
-      - key: Natalie
-        weight: 149
-      - key: Brooklyn
-        weight: 144
-      - key: Samantha
-        weight: 135
-      - key: Alexis
-        weight: 134
-      - key: Zoe
-        weight: 127
-      - key: Hailey
-        weight: 126
-      - key: Nevaeh
-        weight: 125
-      - key: Sofia
-        weight: 124
-      - key: Ashley
-        weight: 116
-      - key: Evelyn
-        weight: 116
-      - key: Hannah
-        weight: 113
-      - key: Anna
-        weight: 112
-      - key: Lillian
-        weight: 111
-      - key: Alyssa
-        weight: 108
-      - key: Charlotte
-        weight: 108
-      - key: Claire
-        weight: 105
-      - key: Alexa
-        weight: 101
-      - key: Kaylee
-        weight: 100
-      - key: Lucy
-        weight: 100
-      - key: Arianna
-        weight: 97
-      - key: Victoria
-        weight: 97
-      - key: Brianna
-        weight: 96
-      - key: Amelia
-        weight: 94
-      - key: Gabriella
-        weight: 94
-      - key: Zoey
-        weight: 94
-      - key: Peyton
-        weight: 93
-      - key: Sarah
-        weight: 93
-      - key: Sydney
-        weight: 93
-      - key: Taylor
-        weight: 93
-      - key: Allison
-        weight: 92
-      - key: Riley
-        weight: 92
-      - key: Leah
-        weight: 91
-      - key: Camila
-        weight: 89
-      - key: Audrey
-        weight: 86
-      - key: Bailey
-        weight: 80
-      - key: Layla
-        weight: 80
-      - key: Aaliyah
-        weight: 78
-      - key: Savannah
-        weight: 76
-      - key: Kimberly
-        weight: 75
-      - key: Madeline
-        weight: 75
-      - key: Aubrey
-        weight: 74
-      - key: Makayla
-        weight: 73
-      - key: Serenity
-        weight: 72
-      - key: Stella
-        weight: 72
-      - key: Katherine
-        weight: 71
-      - key: Maya
-        weight: 71
-      - key: Autumn
-        weight: 70
-      - key: Sophie
-        weight: 70
-      - key: Alexandra
-        weight: 69
-      - key: Bella
-        weight: 68
-      - key: Kylie
-        weight: 68
-      - key: Molly
-        weight: 68
-      - key: Harper
-        weight: 67
-      - key: Julia
-        weight: 66
-      - key: Isabelle
-        weight: 65
-      - key: Ruby
-        weight: 65
-      - key: Gianna
-        weight: 64
-      - key: Liliana
-        weight: 63
-      - key: Brooke
-        weight: 62
-      - key: Ellie
-        weight: 62
-      - key: Eva
-        weight: 62
-      - key: Isabel
-        weight: 62
-      - key: Payton
-        weight: 62
-      - key: Jasmine
-        weight: 61
-      - key: Valeria
-        weight: 61
-      - key: Faith
-        weight: 60
-      - key: Kayla
-        weight: 60
-      - key: Morgan
-        weight: 60
-      - key: Mariah
-        weight: 59
-      - key: Naomi
-        weight: 59
-      - key: Paige
-        weight: 59
-      - key: Violet
-        weight: 59
-      - key: Annabelle
-        weight: 56
-      - key: Lilly
-        weight: 56
-      - key: Izabella
-        weight: 55
-      - key: Caroline
-        weight: 54
-      - key: Lauren
-        weight: 54
-      - key: Andrea
-        weight: 52
-      - key: Ariana
-        weight: 52
-      - key: Jocelyn
-        weight: 52
-      - key: Genesis
-        weight: 51
-      - key: Jade
-        weight: 51
-      - key: Jessica
-        weight: 50
+key: Colorado (USA) # 2010 https://www.ssa.gov/cgi-bin/namesbystate.cgi
+icon: 🇺🇸
+givenNames:
+  male:
+    - key: Jacob
+      weight: 338
+    - key: Alexander
+      weight: 308
+    - key: Noah
+      weight: 283
+    - key: Daniel
+      weight: 265
+    - key: William
+      weight: 265
+    - key: Liam
+      weight: 251
+    - key: Elijah
+      weight: 245
+    - key: Logan
+      weight: 242
+    - key: Gabriel
+      weight: 241
+    - key: Samuel
+      weight: 241
+    - key: Anthony
+      weight: 239
+    - key: Michael
+      weight: 239
+    - key: Ethan
+      weight: 238
+    - key: Joshua
+      weight: 228
+    - key: Andrew
+      weight: 224
+    - key: Benjamin
+      weight: 222
+    - key: Mason
+      weight: 217
+    - key: Aiden
+      weight: 216
+    - key: Joseph
+      weight: 212
+    - key: James
+      weight: 210
+    - key: Isaac
+      weight: 208
+    - key: David
+      weight: 204
+    - key: Jackson
+      weight: 198
+    - key: Matthew
+      weight: 191
+    - key: Evan
+      weight: 187
+    - key: Dylan
+      weight: 182
+    - key: Jayden
+      weight: 181
+    - key: Christopher
+      weight: 179
+    - key: Owen
+      weight: 179
+    - key: Landon
+      weight: 177
+    - key: Caleb
+      weight: 172
+    - key: Ryan
+      weight: 170
+    - key: Tyler
+      weight: 169
+    - key: Jonathan
+      weight: 166
+    - key: Jack
+      weight: 165
+    - key: Wyatt
+      weight: 162
+    - key: Angel
+      weight: 161
+    - key: Eli
+      weight: 159
+    - key: Gavin
+      weight: 156
+    - key: Luke
+      weight: 154
+    - key: Connor
+      weight: 153
+    - key: Henry
+      weight: 151
+    - key: John
+      weight: 151
+    - key: Isaiah
+      weight: 139
+    - key: Josiah
+      weight: 139
+    - key: Nathan
+      weight: 139
+    - key: Christian
+      weight: 135
+    - key: Julian
+      weight: 129
+    - key: Hunter
+      weight: 128
+    - key: Jose
+      weight: 128
+    - key: Cooper
+      weight: 127
+    - key: Lucas
+      weight: 125
+    - key: Oliver
+      weight: 125
+    - key: Levi
+      weight: 124
+    - key: Adrian
+      weight: 122
+    - key: Brayden
+      weight: 122
+    - key: Zachary
+      weight: 122
+    - key: Dominic
+      weight: 121
+    - key: Ian
+      weight: 120
+    - key: Nicholas
+      weight: 118
+    - key: Thomas
+      weight: 118
+    - key: Aaron
+      weight: 116
+    - key: Austin
+      weight: 116
+    - key: Brandon
+      weight: 111
+    - key: Luis
+      weight: 110
+    - key: Diego
+      weight: 109
+    - key: Kevin
+      weight: 109
+    - key: Carter
+      weight: 107
+    - key: Xavier
+      weight: 107
+    - key: Charles
+      weight: 105
+    - key: Tristan
+      weight: 104
+    - key: Jordan
+      weight: 102
+    - key: Blake
+      weight: 100
+    - key: Robert
+      weight: 99
+    - key: Colton
+      weight: 98
+    - key: Sebastian
+      weight: 98
+    - key: Jeremiah
+      weight: 97
+    - key: Jesus
+      weight: 96
+    - key: Chase
+      weight: 95
+    - key: Cameron
+      weight: 93
+    - key: Ryder
+      weight: 88
+    - key: Brody
+      weight: 87
+    - key: Carlos
+      weight: 86
+    - key: Elias
+      weight: 85
+    - key: Jaxon
+      weight: 84
+    - key: Carson
+      weight: 82
+    - key: Juan
+      weight: 82
+    - key: Miles
+      weight: 81
+    - key: Justin
+      weight: 80
+    - key: Max
+      weight: 79
+    - key: Cole
+      weight: 78
+    - key: Adam
+      weight: 77
+    - key: Hayden
+      weight: 77
+    - key: Nathaniel
+      weight: 74
+    - key: Vincent
+      weight: 74
+    - key: Micah
+      weight: 71
+    - key: Parker
+      weight: 71
+    - key: Alejandro
+      weight: 70
+    - key: Ayden
+      weight: 70
+    - key: Grayson
+      weight: 70
+    - key: Mackenzie
+      weight: 50
+  female:
+    - key: Isabella
+      weight: 342
+    - key: Sophia
+      weight: 317
+    - key: Olivia
+      weight: 268
+    - key: Emma
+      weight: 266
+    - key: Abigail
+      weight: 245
+    - key: Ava
+      weight: 219
+    - key: Emily
+      weight: 210
+    - key: Elizabeth
+      weight: 205
+    - key: Madison
+      weight: 189
+    - key: Ella
+      weight: 175
+    - key: Addison
+      weight: 174
+    - key: Mia
+      weight: 167
+    - key: Avery
+      weight: 162
+    - key: Grace
+      weight: 161
+    - key: Lily
+      weight: 161
+    - key: Chloe
+      weight: 152
+    - key: Natalie
+      weight: 149
+    - key: Brooklyn
+      weight: 144
+    - key: Samantha
+      weight: 135
+    - key: Alexis
+      weight: 134
+    - key: Zoe
+      weight: 127
+    - key: Hailey
+      weight: 126
+    - key: Nevaeh
+      weight: 125
+    - key: Sofia
+      weight: 124
+    - key: Ashley
+      weight: 116
+    - key: Evelyn
+      weight: 116
+    - key: Hannah
+      weight: 113
+    - key: Anna
+      weight: 112
+    - key: Lillian
+      weight: 111
+    - key: Alyssa
+      weight: 108
+    - key: Charlotte
+      weight: 108
+    - key: Claire
+      weight: 105
+    - key: Alexa
+      weight: 101
+    - key: Kaylee
+      weight: 100
+    - key: Lucy
+      weight: 100
+    - key: Arianna
+      weight: 97
+    - key: Victoria
+      weight: 97
+    - key: Brianna
+      weight: 96
+    - key: Amelia
+      weight: 94
+    - key: Gabriella
+      weight: 94
+    - key: Zoey
+      weight: 94
+    - key: Peyton
+      weight: 93
+    - key: Sarah
+      weight: 93
+    - key: Sydney
+      weight: 93
+    - key: Taylor
+      weight: 93
+    - key: Allison
+      weight: 92
+    - key: Riley
+      weight: 92
+    - key: Leah
+      weight: 91
+    - key: Camila
+      weight: 89
+    - key: Audrey
+      weight: 86
+    - key: Bailey
+      weight: 80
+    - key: Layla
+      weight: 80
+    - key: Aaliyah
+      weight: 78
+    - key: Savannah
+      weight: 76
+    - key: Kimberly
+      weight: 75
+    - key: Madeline
+      weight: 75
+    - key: Aubrey
+      weight: 74
+    - key: Makayla
+      weight: 73
+    - key: Serenity
+      weight: 72
+    - key: Stella
+      weight: 72
+    - key: Katherine
+      weight: 71
+    - key: Maya
+      weight: 71
+    - key: Autumn
+      weight: 70
+    - key: Sophie
+      weight: 70
+    - key: Alexandra
+      weight: 69
+    - key: Bella
+      weight: 68
+    - key: Kylie
+      weight: 68
+    - key: Molly
+      weight: 68
+    - key: Harper
+      weight: 67
+    - key: Julia
+      weight: 66
+    - key: Isabelle
+      weight: 65
+    - key: Ruby
+      weight: 65
+    - key: Gianna
+      weight: 64
+    - key: Liliana
+      weight: 63
+    - key: Brooke
+      weight: 62
+    - key: Ellie
+      weight: 62
+    - key: Eva
+      weight: 62
+    - key: Isabel
+      weight: 62
+    - key: Payton
+      weight: 62
+    - key: Jasmine
+      weight: 61
+    - key: Valeria
+      weight: 61
+    - key: Faith
+      weight: 60
+    - key: Kayla
+      weight: 60
+    - key: Morgan
+      weight: 60
+    - key: Mariah
+      weight: 59
+    - key: Naomi
+      weight: 59
+    - key: Paige
+      weight: 59
+    - key: Violet
+      weight: 59
+    - key: Annabelle
+      weight: 56
+    - key: Lilly
+      weight: 56
+    - key: Izabella
+      weight: 55
+    - key: Caroline
+      weight: 54
+    - key: Lauren
+      weight: 54
+    - key: Andrea
+      weight: 52
+    - key: Ariana
+      weight: 52
+    - key: Jocelyn
+      weight: 52
+    - key: Genesis
+      weight: 51
+    - key: Jade
+      weight: 51
+    - key: Jessica
+      weight: 50
