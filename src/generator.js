@@ -15,6 +15,8 @@ const chooseRace = () =>
     { key: "Extraterrestrial", weight: 1 },
   ]).key;
 
+const chooseAge = () => random.normal(12, 52, { skew: 2, round: true });
+
 const chooseHeroClass = () => {
   const heroClasses = read("resources.hero-class");
   return random.pick(heroClasses);
@@ -113,6 +115,7 @@ const chooseHeroName = (keys) => {
 
 const generateHero = (opts) => {
   const race = chooseRace();
+  const age = chooseAge();
   const heroClass = chooseHeroClass();
   const habilities = chooseHabilities({ heroClass });
   const country = chooseCountry({ race });
@@ -131,6 +134,7 @@ const generateHero = (opts) => {
 
   return {
     race,
+    age,
     genre,
     country: keyWithIcon(country),
     realName: `${realName.givenName} ${realName.familyName}`,

@@ -2,6 +2,7 @@
  * "Mulberry32 is a simple generator with a 32-bit state, but is extremely fast and has good quality"
  * @see https://stackoverflow.com/a/47593316/1614677
  * @param {number} seed
+ * @return {number} (0,1)
  */
 const mulberry32 = (seed) => {
   return () => {
@@ -65,11 +66,37 @@ const randomGenerator = (randomSeed) => {
     return selectedIndex >= 0 ? arr[selectedIndex] : null;
   };
 
+  /**
+   *
+   * @param {number} min
+   * @param {number} max
+   * @param {number?} skew
+   * @see https://stackoverflow.com/a/49434653/1614677
+   */
+  const normal = (min, max, { skew, round } = { skew: 1, round: true }) => {
+    let u = random(); // (0,1)
+    let v = random(); // (0,1)
+
+    let num = Math.sqrt(-2.0 * Math.log(u)) * Math.cos(2.0 * Math.PI * v);
+    num = num / 10.0 + 0.5; // Translate to 0 -> 1
+
+    if (num > 1 || num < 0) {
+      // resample between 0 and 1 if out of range
+      num = normal(min, max, skew);
+    }
+    num = Math.pow(num, skew); // Skew
+    num *= max - min; // Stretch to fill range
+    num += min; // offset to min
+    return round ? Math.round(num) : num;
+  };
+
   return {
-    seed,
+    normal,
     number,
     pick,
     play,
+    random,
+    seed,
   };
 };
 
