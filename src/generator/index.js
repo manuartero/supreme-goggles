@@ -113,7 +113,10 @@ const chooseHeroNameWithVocative = (keys, fileContent) => {
     };
   }
   const vocative = random.pick(compatibleWeights).key;
-  let name = random.pick(keys).split(" ")[0]; // first letter
+  let name = random.pick(keys).split(" ")[0]; // one word
+  if (random.play("10%")) {
+    name = name[0];
+  }
   return `${vocative} ${name}`;
 };
 
