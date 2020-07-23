@@ -1,0 +1,29 @@
+---
+- key: Mss.
+  constraints:
+    - female
+- key: Lady
+  constraints:
+    - female
+- key: Queen
+  constraints:
+    - female
+- key: Mr.
+  constraints:
+    - male
+- key: Lord
+  constraints:
+    - male
+- key: King
+  constraints:
+    - male
+- key: General
+  compatibilities:
+    - Soldier: 100
+- key: Sergeant
+  compatibilities:
+    - Soldier: 100
+- key: Doctor
+  compatibilities:
+    - Paranormal: 100
+    - Science Genious: 200

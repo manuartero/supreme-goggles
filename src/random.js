@@ -33,9 +33,7 @@ const randomGenerator = (randomSeed) => {
     let acc = 0;
     // if the weights are [5, 30, 10],
     // this would build an array containing [5, 35, 45], and acc=45
-    const ranges = weights.map(
-      (weight) => (acc += weight >= 0 ? Math.abs(weight) : 1)
-    );
+    const ranges = weights.map((weight) => (acc += weight));
 
     const selectedValue = random() * acc;
 
@@ -60,7 +58,11 @@ const randomGenerator = (randomSeed) => {
     if (typeof arr[0] !== "object") {
       return arr[number(0, arr.length - 1)];
     }
-    const weights = arr.map((item) => item[weightKey] || 1);
+    const weights = arr
+      .filter(
+        (item) => (item[weightKey] !== undefined ? item[weightKey] : 1) > 0
+      )
+      .map((item) => item[weightKey] || 1);
     const selectedIndex = chooseWeightedIndex(weights);
 
     return selectedIndex >= 0 ? arr[selectedIndex] : null;

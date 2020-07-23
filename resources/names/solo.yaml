@@ -1,0 +1,18 @@
+---
+- key: Katana
+  constraints:
+    - female
+    - Japan
+  compatibilities:
+    - Weapon Master: 10
+    - Claws: 10
+    - Japan: 10
+    - female: 10
+- key: Fate
+  constraints:
+    - Paranormal
+  compatibilities:
+    - Paranormal: 10
+- key: Wall
+  compatibilities:
+    - Hard Skin: 10

@@ -7,12 +7,15 @@ const definePath = (relativeName) =>
 
 /**
  * @param {string} relativeName "resources.countries"
+ * @return {string[]}
  */
 const listFileNames = (relativeName) => {
   try {
     const path = definePath(relativeName);
-    const files = fs.readdirSync(path);
-    return files.map((file) => file.split(".")[0]);
+    return fs
+      .readdirSync(path, { withFileTypes: true })
+      .filter((dirent) => dirent.isFile())
+      .map((dirent) => dirent.name.split(".")[0]);
   } catch (err) {
     throw {
       what: "LISTING FILES IN FOLDER",

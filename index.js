@@ -5,8 +5,12 @@ console.info(`${name} v${version}`);
 
 const generateSomeHeros = (n) => {
   for (let i = 0; i < n; i++) {
-    const hero = generateHero({});
-    console.info(hero);
+    try {
+      const hero = generateHero({});
+      console.info(hero);
+    } catch (err) {
+      console.info(err);
+    }
   }
 };
 

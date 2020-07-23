@@ -1,13 +1,16 @@
-const { read, listFileNames } = require("./yaml-reader");
-const { randomGenerator } = require("./random");
+const { read, listFileNames } = require("../yaml-reader");
+const { randomGenerator } = require("../random");
+const {
+  sumCompatibleWeights,
+  noCompatibilities,
+} = require("./compatibilities");
 
 const random = randomGenerator();
 
 const keyWithIcon = ({ key, icon }) => `${key} ${icon} `;
 const keys = (arr) => arr.map((e) => e.key);
 
-const DEFAULT_NAMES = read("resources.names.default");
-const HERO_NAMES = read("resources.hero-names");
+const DEFAULT_USA_NAMES = read("resources.countries.default.usa");
 
 const chooseRace = () =>
   random.pick([
@@ -63,13 +66,13 @@ const chooseGenre = ({ race }) => {
 
 const chooseRealName = ({ genre, country, race }) => {
   if (race === "Extraterrestrial") {
-    const alienNames = read("resources.names.alien");
+    const alienNames = read("resources.countries.default.alien");
     return { givenName: random.pick(alienNames), familyName: "" };
   }
   const givenName = random.pick(country.givenNames[genre]).key;
   const familyName = country.familyNames
     ? random.pick(country.familyNames).key
-    : random.pick(DEFAULT_NAMES.familyNames).key;
+    : random.pick(DEFAULT_USA_NAMES.familyNames).key;
   return { givenName, familyName };
 };
 
@@ -85,32 +88,69 @@ const chooseInnerDrives = () => {
   return drives;
 };
 
-const keyValuePair = (obj) => {
-  const key = Object.keys(obj)[0];
-  const value = obj[key];
-  return { key, value };
+const chooseHeroNameWithArticle = (fileContent) => {
+  const name = random.pick(fileContent).key;
+  return `The ${name}`;
+};
+
+const chooseSoloHeroName = (keys, fileContent) => {
+  const compatibleWeights = sumCompatibleWeights(fileContent, keys);
+  if (noCompatibilities(compatibleWeights)) {
+    throw {
+      what: "CAN'T CREATE A 'SOLO' HERO NAME",
+      when: keys,
+    };
+  }
+  return random.pick(compatibleWeights).key;
+};
+
+const chooseHeroNameWithVocative = (keys, fileContent) => {
+  const compatibleWeights = sumCompatibleWeights(fileContent, keys);
+  if (noCompatibilities(compatibleWeights)) {
+    throw {
+      what: "CAN'T CREATE A 'VOCATIVE' HERO NAME",
+      when: keys,
+    };
+  }
+  const vocative = random.pick(compatibleWeights).key;
+  let name = random.pick(keys).split(" ")[0]; // first letter
+  return `${vocative} ${name}`;
+};
+
+const chooseBaseHeroName = (keys, fileContent) => {
+  const chooseA = (arr) => {
+    const compatibleWeights = sumCompatibleWeights(arr, keys);
+    if (noCompatibilities(compatibleWeights)) {
+      throw {
+        what: "CAN'T CREATE A 'BASE' HERO NAME",
+        when: keys,
+      };
+    }
+    return random.pick(compatibleWeights).key;
+  };
+
+  return `${chooseA(fileContent["adjetives"])} ${chooseA(
+    fileContent["nouns"]
+  )}`;
 };
 
 /**
  * @param {Array<string>} keys
  */
 const chooseHeroName = (keys) => {
-  // console.log(keys);
-
-  const sumCompatibleWeights = (acc, currentValue) => {
-    const { compKey, compWeight } = keyValuePair(currentValue);
-    if (keys.includes(compKey)) {
-      acc += compWeight;
-    }
-    return acc;
-  };
-
-  const heroNamesCandidates = HERO_NAMES.map(({ key, compatibilities }) => {
-    const weight = compatibilities.reduce(sumCompatibleWeights, 0);
-    return { key, weight };
-  });
-
-  // console.log(heroNamesCandidates);
+  const algorithim = random.pick(listFileNames("resources.names"));
+  const fileContent = read(`resources.names.${algorithim}`);
+  switch (algorithim) {
+    case "article":
+      return chooseHeroNameWithArticle(fileContent);
+    case "solo":
+      return chooseSoloHeroName(keys, fileContent);
+    case "vocatives":
+      return chooseHeroNameWithVocative(keys, fileContent);
+    case "base":
+    default:
+      return chooseBaseHeroName(keys, fileContent);
+  }
 };
 
 const generateHero = (opts) => {
@@ -122,7 +162,7 @@ const generateHero = (opts) => {
   const genre = chooseGenre({ race });
   const realName = chooseRealName({ country, genre, race });
   const innerDrives = chooseInnerDrives();
-  const nameKeys = [
+  const heroKeys = [
     race,
     genre,
     simplifyCountry(country),
@@ -130,7 +170,7 @@ const generateHero = (opts) => {
     ...keys(habilities),
     ...keys(innerDrives),
   ];
-  const heroName = random.play("80%") ? chooseHeroName(nameKeys) : realName;
+  const heroName = random.play("10%") ? realName : chooseHeroName(heroKeys);
 
   return {
     race,

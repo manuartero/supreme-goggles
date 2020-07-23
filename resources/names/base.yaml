@@ -1,0 +1,37 @@
+---
+adjetives:
+  - key: Golden
+  - key: Red
+  - key: Scarlet
+  - key: Blue
+  - key: Green
+  - key: Dark
+  - key: Bright
+  - key: Magnificient
+  - key: Deep
+  - key: Black
+  - key: Quick
+  - key: Warrior
+nouns:
+  - key: Hunter
+    compatibilities:
+      - Weapon Master: 10
+      - Strategos: 10
+      - Fly: 5
+      - Extreme Speed: 2
+  - key: Feline
+    compatibilities:
+      - Enhanced: 5
+      - Claws: 5
+      - Intuition: 10
+  - key: Nun
+    constraints:
+      - female
+    compatibilities:
+      - Martial Arts: 1
+  - key: Girl
+    constraints:
+      - female
+  - key: Boy
+    constraints:
+      - male
