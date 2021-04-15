@@ -1,4 +1,4 @@
-const { randomGenerator } = require("./random");
+const { RandomGenerator } = require("@manutero/randomjs");
 
 const normalExample = () => {
   const count = [];
@@ -6,7 +6,7 @@ const normalExample = () => {
     count[i] = 0;
   }
 
-  const random = randomGenerator();
+  const random = RandomGenerator();
   for (let i = 0; i < 1000; i++) {
     const value = random.normal(15, 50);
     count[value]++;

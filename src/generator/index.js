@@ -1,11 +1,12 @@
+const { RandomGenerator } = require("@manutero/randomjs");
 const { read, listFileNames } = require("../yaml-reader");
-const { randomGenerator } = require("../random");
+
 const {
   sumCompatibleWeights,
   noCompatibilities,
 } = require("./compatibilities");
 
-const random = randomGenerator();
+const random = RandomGenerator();
 
 const keyWithIcon = ({ key, icon }) => `${key} ${icon} `;
 const keys = (arr) => arr.map((e) => e.key);
@@ -13,7 +14,7 @@ const keys = (arr) => arr.map((e) => e.key);
 const DEFAULT_USA_NAMES = read("resources.countries.default.usa");
 
 const chooseRace = () =>
-  random.pick([
+  random.pickOne([
     { key: "Human", weight: 999 },
     { key: "Extraterrestrial", weight: 1 },
   ]).key;
@@ -22,14 +23,14 @@ const chooseAge = () => random.normal(12, 52, { skew: 2, round: true });
 
 const chooseHeroClass = () => {
   const heroClasses = read("resources.hero-class");
-  return random.pick(heroClasses);
+  return random.pickOne(heroClasses);
 };
 
 const chooseHabilities = ({ heroClass }) => {
   if (heroClass.key === "Sidekick") {
     return [];
   }
-  const numberOfHabilities = random.pick([
+  const numberOfHabilities = random.pickOne([
     { key: 1, weight: 10 },
     { key: 2, weight: 8 },
     { key: 3, weight: 1 },
@@ -37,7 +38,7 @@ const chooseHabilities = ({ heroClass }) => {
 
   const habilities = [];
   while (habilities.length < numberOfHabilities) {
-    const hability = random.pick(heroClass.habilities);
+    const hability = random.pickOne(heroClass.habilities);
     // avoid duplicates
     if (habilities.filter((e) => e.key === hability.key).length <= 0) {
       habilities.push(hability);
@@ -51,7 +52,7 @@ const chooseCountry = ({ race }) => {
     return { key: "NA", icon: "" };
   }
   const countries = listFileNames("resources.countries");
-  const country = random.pick(countries);
+  const country = random.pickOne(countries);
   return read(`resources.countries.${country}`);
 };
 
@@ -61,26 +62,26 @@ const chooseGenre = ({ race }) => {
   if (race === "Extraterrestrial" && random.play("50%")) {
     return "NA";
   }
-  return random.pick(["male", "female"]);
+  return random.pickOne(["male", "female"]);
 };
 
 const chooseRealName = ({ genre, country, race }) => {
   if (race === "Extraterrestrial") {
     const alienNames = read("resources.countries.default.alien");
-    return { givenName: random.pick(alienNames), familyName: "" };
+    return { givenName: random.pickOne(alienNames), familyName: "" };
   }
-  const givenName = random.pick(country.givenNames[genre]).key;
+  const givenName = random.pickOne(country.givenNames[genre]).key;
   const familyName = country.familyNames
-    ? random.pick(country.familyNames).key
-    : random.pick(DEFAULT_USA_NAMES.familyNames).key;
+    ? random.pickOne(country.familyNames).key
+    : random.pickOne(DEFAULT_USA_NAMES.familyNames).key;
   return { givenName, familyName };
 };
 
 const chooseInnerDrives = () => {
   const innerDrives = read("resources.inner-drives");
-  const drives = [random.pick(innerDrives)];
+  const drives = [random.pickOne(innerDrives)];
   if (!drives[0].unique && random.play("25%")) {
-    const secondDrive = random.pick(innerDrives);
+    const secondDrive = random.pickOne(innerDrives);
     if (!secondDrive.unique && secondDrive.key !== drives[0].key) {
       drives.push(secondDrive);
     }
@@ -89,7 +90,7 @@ const chooseInnerDrives = () => {
 };
 
 const chooseHeroNameWithArticle = (fileContent) => {
-  const name = random.pick(fileContent).key;
+  const name = random.pickOne(fileContent).key;
   return `The ${name}`;
 };
 
@@ -101,7 +102,7 @@ const chooseSoloHeroName = (keys, fileContent) => {
       when: keys,
     };
   }
-  return random.pick(compatibleWeights).key;
+  return random.pickOne(compatibleWeights).key;
 };
 
 const chooseHeroNameWithVocative = (keys, fileContent) => {
@@ -112,8 +113,8 @@ const chooseHeroNameWithVocative = (keys, fileContent) => {
       when: keys,
     };
   }
-  const vocative = random.pick(compatibleWeights).key;
-  let name = random.pick(keys).split(" ")[0]; // one word
+  const vocative = random.pickOne(compatibleWeights).key;
+  let name = random.pickOne(keys).split(" ")[0]; // one word
   if (random.play("10%")) {
     name = name[0];
   }
@@ -129,7 +130,7 @@ const chooseBaseHeroName = (keys, fileContent) => {
         when: keys,
       };
     }
-    return random.pick(compatibleWeights).key;
+    return random.pickOne(compatibleWeights).key;
   };
 
   return `${chooseA(fileContent["adjetives"])} ${chooseA(
@@ -141,7 +142,7 @@ const chooseBaseHeroName = (keys, fileContent) => {
  * @param {Array<string>} keys
  */
 const chooseHeroName = (keys) => {
-  const algorithim = random.pick(listFileNames("resources.names"));
+  const algorithim = random.pickOne(listFileNames("resources.names"));
   const fileContent = read(`resources.names.${algorithim}`);
   switch (algorithim) {
     case "article":
